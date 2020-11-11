@@ -1,0 +1,9 @@
+= SrcLab Template: File template for SrcLab projects
+Sun Qian <fredsuvn@163.com>
+v1.0.0, 2020-11-11
+:encoding: UTF-8
+
+SrcLab Template is a collection of file templates for SrcLab projects, including:
+
+* link:.gitignore[gitignore]
+* link:.editorconfig[editorconfig]
