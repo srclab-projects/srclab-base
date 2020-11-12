@@ -1,0 +1,65 @@
+apply plugin: 'maven-publish'
+apply plugin: 'signing'
+
+publishing {
+  publications {
+    maven(MavenPublication) {
+      from components.javaPlatform
+
+      pom {
+        name = project.name
+        description = project.description
+        url = infos.url
+        inceptionYear = infos.inceptionYear
+        licenses {
+          infos.licenses.forEach { each ->
+            license {
+              name = each.name
+              url = each.url
+            }
+          }
+        }
+        scm {
+          connection = "scm:git:${infos.url}.git"
+          developerConnection = "scm:git:${infos.url}.git"
+          url = infos.url
+        }
+        developers {
+          infos.developers.forEach { each ->
+            developer {
+              email = each.email
+            }
+          }
+        }
+      }
+    }
+  }
+
+  repositories {
+    mavenLocal()
+    if (infos.needLoginSigning) {
+      maven {
+        name = "sonatype"
+        url = infos.oss.staging
+        credentials {
+          username = "${passwords.sonatype.username}"
+          password = "${passwords.sonatype.password}"
+        }
+      }
+      maven {
+        name = "sonatypeSnapshot"
+        url = infos.oss.snapshot
+        credentials {
+          username = "${passwords.sonatype.username}"
+          password = "${passwords.sonatype.password}"
+        }
+      }
+    }
+  }
+
+  if (infos.snapshot) {
+    signing {
+      sign publishing.publications.maven
+    }
+  }
+}
