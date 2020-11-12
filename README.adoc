@@ -5,5 +5,5 @@ v1.0.0, 2020-11-11
 
 SrcLab Template is a collection of file templates for SrcLab projects, including:
 
-* link:.gitignore[gitignore]
-* link:.editorconfig[editorconfig]
+* link:.gitignore[gitignore]: .gitignore template;
+* link:.editorconfig[editorconfig]: .editorconfig template.
