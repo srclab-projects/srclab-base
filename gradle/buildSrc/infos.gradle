@@ -6,6 +6,15 @@ ext["infos"] = [
     //Whether build to snapshot
     snapshot        : false,
 
+    //Whether publish to sonatype
+    sonatype        : false,
+
+    //Whether signing
+    signing         : false,
+
+    //Publish as
+    publishAs       : ["java", "kotlin"],
+
     //Version
     version         : "0.0.0",
 

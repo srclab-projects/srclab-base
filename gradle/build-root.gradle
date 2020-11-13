@@ -33,6 +33,7 @@ tasks.withType(JavaCompile) {
 
 def processProject(anyProject) {
   anyProject.group = infos.group
+  anyProject.version = infos.version
   if (anyProject == rootProject) {
     println("Configure root ${anyProject.group}:${anyProject.name}:${anyProject.version}")
   } else {
