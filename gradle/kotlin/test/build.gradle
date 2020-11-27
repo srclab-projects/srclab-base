@@ -1,8 +1,8 @@
 plugins {
-  id 'build.kotlin-publish-jar'
+  id "build.kotlin-publish-jar"
 }
 
-description = "Utilities: utilities."
+description = "Test: Test tools from demo projects."
 
 java {
   registerFeature('optionalSupport') {
@@ -13,9 +13,9 @@ java {
 dependencies {
   implementation(platform(project(":bom")))
 
-  api(project(":list"))
-
-  testCompile(project(":test"))
+  api("org.jetbrains.kotlin:kotlin-test-testng")
+  api("org.apache.commons:commons-lang3")
+  api("com.google.guava:guava")
 }
 
 test {

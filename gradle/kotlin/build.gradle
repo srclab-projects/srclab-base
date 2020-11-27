@@ -1,0 +1,31 @@
+plugins {
+  id 'build.common'
+}
+
+description = "Build for demo projects"
+
+println "${infos.logPrefix} Build ${project.name}"
+
+allprojects { p ->
+  //Do for each project
+  processProject(p)
+}
+
+//subprojects { p ->
+//  //Do for each project
+//  processProject(p)
+//}
+
+tasks.withType(JavaCompile) {
+  options.encoding = "UTF-8"
+}
+
+def processProject(anyProject) {
+  anyProject.group = infos.group
+  anyProject.version = infos.version
+  if (anyProject == rootProject) {
+    println("${infos.logPrefix} Configure root project ${anyProject.group}:${anyProject.name}:${anyProject.version}")
+  } else {
+    println("${infos.logPrefix} Configure project ${anyProject.group}:${anyProject.name}:${anyProject.version}")
+  }
+}

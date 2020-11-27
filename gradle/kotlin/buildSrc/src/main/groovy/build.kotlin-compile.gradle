@@ -1,3 +1,9 @@
+plugins {
+  id 'org.jetbrains.kotlin.jvm'
+}
+
+println "${infos.logPrefix} ${project.name}: import kotlin-compile"
+
 compileKotlin {
   kotlinOptions {
     jvmTarget = "${javaVersion}"
