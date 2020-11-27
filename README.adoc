@@ -5,6 +5,7 @@ v1.0.0, 2020-11-11
 
 SrcLab Template is a collection of file templates for SrcLab projects, including:
 
-* link:.gitignore[gitignore]: .gitignore template;
-* link:.editorconfig[editorconfig]: .editorconfig template;
-* link:gradle/[gradle]: gradle build script template.
+* link:.gitignore[.gitignore]: .gitignore template;
+* link:.editorconfig[.editorconfig]: .editorconfig template;
+* link:brew/[brew/]: brew files;
+* link:gradle/kotlin/[gradle/kotlin/]: gradle for kotlin project template.

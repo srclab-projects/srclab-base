@@ -1,0 +1,22 @@
+plugins {
+  id 'build.kotlin-publish-jar'
+}
+
+description = "List: list."
+
+java {
+  registerFeature('optionalSupport') {
+    usingSourceSet(sourceSets.main)
+  }
+}
+
+dependencies {
+  implementation(platform(project(":bom")))
+
+  testCompile(project(":test"))
+}
+
+test {
+  useTestNG()
+  include("**/*Test.class", "**/*TestKt.class")
+}

@@ -1,0 +1,24 @@
+plugins {
+  id "build.kotlin-publish-jar"
+}
+
+description = "Test: Test tools from demo projects."
+
+java {
+  registerFeature('optionalSupport') {
+    usingSourceSet(sourceSets.main)
+  }
+}
+
+dependencies {
+  implementation(platform(project(":bom")))
+
+  api("org.jetbrains.kotlin:kotlin-test-testng")
+  api("org.apache.commons:commons-lang3")
+  api("com.google.guava:guava")
+}
+
+test {
+  useTestNG()
+  include("**/*Test.class", "**/*TestKt.class")
+}

@@ -1,0 +1,16 @@
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+  }
+  plugins {
+    id "org.jetbrains.kotlin.jvm" version "${kotlinVersion}"
+  }
+}
+
+rootProject.name = 'build'
+include('bom', 'test', 'app', 'list', 'utilities')
+
+//Including boat projects
+//file("${rootDir}/").eachDirMatch(~/demo-.*/) { file ->
+//  include ":${file.name}"
+//}
