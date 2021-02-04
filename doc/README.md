@@ -7,9 +7,9 @@
 ## Choose your document type and language:
 
 - Markdown:
-    * [English](README_en.md)
-    * [简体中文](README_zh.md)
+    * [English](readme/README_en.md)
+    * [简体中文](readme/README_zh.md)
 
 - AsciiDoc:
-    * [English](README_en.adoc)
-    * [简体中文](README_zh.adoc)
+    * [English](readme/README_en.adoc)
+    * [简体中文](readme/README_zh.adoc)
