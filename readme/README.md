@@ -10,6 +10,6 @@
 
 ## _Contact_
 
-* fredsuvn@163.com
+* <fredsuvn@163.com>
 * https://github.com/srclab-projects
 * QQ group: 1037555759
