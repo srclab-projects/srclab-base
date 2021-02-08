@@ -1,15 +1,14 @@
-= SrcLab Template: File template for SrcLab projects
+= SrcLab Template: SrcLab Template Files
 Sun Qian <fredsuvn@163.com>
 v1.0.0, 2020-11-11
 :encoding: UTF-8
 
-== SrcLab Template is a collection of file templates for SrcLab projects, including:
-
+* link:readme/[readme]: readme templates with asciidoc and markdown
 * link:.gitignore[.gitignore]: .gitignore template
 * link:.editorconfig[.editorconfig]: .editorconfig template
-* link:brew/[brew/]: brew files
-* link:gradle/kotlin/[gradle/kotlin/]: gradle for kotlin project template
-* link:doc/[doc/]: document template such as README by asciidoc and markdown
+* Gradle project templates
+- link:gradle/kotlin/[kotlin]: kotlin templates
+* link:brew/[brew]: brew templates
 
 == _Contact_
 
