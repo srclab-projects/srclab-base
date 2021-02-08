@@ -1,12 +1,4 @@
-= Title: A description
-
-[options="header"]
-|===
-|Date|Revision|Author|Content
-|2020-12-10|1.0.0|Sun Qian <fredsuvn@163.com>|New
-|===
-
-== Choose your document type and language:
+= _Welcome_
 
 - Markdown:
 * link:README_en.md[English]
@@ -15,3 +7,9 @@
 - AsciiDoc:
 * link:README_en.adoc[English]
 * link:README_zh.adoc[简体中文]
+
+== _Contact_
+
+* fredsuvn@163.com
+* https://github.com/srclab-projects
+* QQ group: 1037555759

@@ -9,3 +9,9 @@ v1.0.0, 2020-11-11
 * Gradle project templates
 - link:gradle/kotlin/[kotlin]: kotlin templates
 * link:brew/[brew]: brew templates
+
+== _Contact_
+
+* fredsuvn@163.com
+* https://github.com/srclab-projects
+* QQ group: 1037555759
