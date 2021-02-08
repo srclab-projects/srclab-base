@@ -13,7 +13,7 @@
 == Contribution and Contact
 
 * fredsuvn@163.com
-* https://github.com/srclab-projects/boat
+* https://github.com/srclab-projects
 * QQ group: 1037555759
 
 == License
