@@ -1,10 +1,4 @@
-# Title: A description
-
-|Date|Revision|Author|Content|
-|---|---|---|---|
-|2020-12-10|1.0.0|Sun Qian <fredsuvn@163.com>|New|
-
-## Choose your document type and language:
+# _Welcome_
 
 - Markdown:
     * [English](readme/README_en.md)
