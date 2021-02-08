@@ -12,7 +12,13 @@ task sourceJar(type: Jar) {
   from sourceSets.main.allSource
 }
 
-task javadocJar(type: Jar, dependsOn: javadoc) {
+//task javadocJar(type: Jar, dependsOn: javadoc) {
+//  classifier "javadoc"
+//  from javadoc.destinationDir
+//}
+task javadocJar(type: Jar, dependsOn: dokkaJavadoc {
+  outputDirectory = javadoc.destinationDir
+}) {
   classifier "javadoc"
   from javadoc.destinationDir
 }
