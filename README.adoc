@@ -11,7 +11,7 @@ v1.0.0, 2020-11-11
 * link:gradle/kotlin/[gradle/kotlin/]: gradle for kotlin project template
 * link:doc/[doc/]: document template such as README by asciidoc and markdown
 
-== Any problem contact to me:
+== _Contact_
 
 * fredsuvn@163.com
 * https://github.com/srclab-projects
