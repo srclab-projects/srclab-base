@@ -11,7 +11,7 @@
 ## 贡献和联系方式
 
 * fredsuvn@163.com
-* https://github.com/srclab-projects/boat
+* https://github.com/srclab-projects
 * QQ群: 1037555759
 
 ## License
