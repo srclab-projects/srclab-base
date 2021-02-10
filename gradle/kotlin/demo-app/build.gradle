@@ -3,7 +3,7 @@ plugins {
   id 'application'
 }
 
-description = "App: demo app"
+description = "Demo App: A demo app."
 
 java {
   registerFeature('optionalSupport') {
@@ -12,11 +12,11 @@ java {
 }
 
 dependencies {
-  implementation(platform(project(":bom")))
+  implementation(platform(project(":demo-dependencies")))
 
-  api(project(":utilities"))
+  api(project(":demo-utilities"))
 
-  testCompile(project(":test"))
+  testCompile(project(":demo-test"))
 }
 
 application {

@@ -2,7 +2,7 @@ plugins {
   id "build.kotlin-publish-jar"
 }
 
-description = "Test: Test tools from demo projects."
+description = "Demo Test: Import test frameworks (testng)."
 
 java {
   registerFeature('optionalSupport') {
@@ -11,11 +11,9 @@ java {
 }
 
 dependencies {
-  implementation(platform(project(":bom")))
+  implementation(platform(project(":demo-dependencies")))
 
   api("org.jetbrains.kotlin:kotlin-test-testng")
-  api("org.apache.commons:commons-lang3")
-  api("com.google.guava:guava")
 }
 
 test {

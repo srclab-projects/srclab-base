@@ -1,0 +1,17 @@
+plugins {
+  id 'build.kotlin-publish-platform'
+}
+
+description = "Demo Bom: Demo projects BOM."
+
+javaPlatform {
+  allowDependencies()
+}
+
+dependencies {
+  constraints {
+    file("${rootDir}").eachDirMatch(~/demo-.*/) { file ->
+      api(project(":${file.name}"))
+    }
+  }
+}
