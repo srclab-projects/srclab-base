@@ -2,7 +2,7 @@ plugins {
   id 'build.kotlin-publish-platform'
 }
 
-description = "Demo Bom: Demo projects BOM."
+description = "Demo Dependencies: Demo projects dependencies management."
 
 javaPlatform {
   allowDependencies()
@@ -10,10 +10,4 @@ javaPlatform {
 
 dependencies {
   api platform("xyz.srclab.bom:srclab-dependencies:${infos.dependenciesVersion}")
-
-//  constraints {
-//    file("${rootDir}").eachDirMatch(~/demo-.*/) { file ->
-//      api(project(":${file.name}"))
-//    }
-//  }
 }

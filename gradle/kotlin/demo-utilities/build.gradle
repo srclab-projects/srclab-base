@@ -2,7 +2,7 @@ plugins {
   id 'build.kotlin-publish-jar'
 }
 
-description = "List: list."
+description = "Demo Utilities: Demo utilities."
 
 java {
   registerFeature('optionalSupport') {
@@ -11,9 +11,11 @@ java {
 }
 
 dependencies {
-  implementation(platform(project(":bom")))
+  implementation(platform(project(":demo-dependencies")))
 
-  testCompile(project(":test"))
+  api(project(":demo-list"))
+
+  testCompile(project(":demo-test"))
 }
 
 test {
