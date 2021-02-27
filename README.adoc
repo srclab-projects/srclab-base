@@ -3,15 +3,15 @@ Sun Qian <fredsuvn@163.com>
 v1.0.0, 2020-11-11
 :encoding: UTF-8
 
-* link:readme/[readme]: Readme templates with asciidoc and markdown
+* link:docs/[docs/]: Document templates with asciidoc and markdown
 * link:.gitignore[.gitignore]: .gitignore template
 * link:.editorconfig[.editorconfig]: .editorconfig template
-* link:gradle/[gradle]: Gradle Project Templates
-- link:gradle/kotlin/[Kotlin]: kotlin templates
-* link:maven/[maven]: Maven Project Templates
-- link:maven/java/[Java]: Java templates
-* link:brew/[brew]: Brew templates
-* link:logo/[logo]: Logo template (SVG)
+* link:gradle/[gradle/]: Gradle Project Templates
+- link:gradle/kotlin/[Kotlin/]: kotlin templates
+* link:maven/[maven/]: Maven Project Templates
+- link:maven/java/[Java/]: Java templates
+* link:brew/[brew/]: Brew templates
+* link:logos/[logos/]: Logo template (SVG)
 
 == _Contact_
 
