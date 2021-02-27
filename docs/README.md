@@ -8,6 +8,8 @@
     * [English](README_en.adoc)
     * [简体中文](README_zh.adoc)
 
+More see [docs/](../docs/)
+
 ## _Contact_
 
 * fredsuvn@163.com
