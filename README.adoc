@@ -11,7 +11,7 @@ v1.0.0, 2020-11-11
 * link:maven/[maven/]: Maven Project Templates
 - link:maven/java/[Java/]: Java templates
 * link:brew/[brew/]: Brew templates
-* link:logos/[logos/]: Logo template (SVG)
+* link:logos/[logos/]: Logo templates (SVG)
 
 == _Contact_
 
