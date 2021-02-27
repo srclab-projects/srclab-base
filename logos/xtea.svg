@@ -1,0 +1,22 @@
+<svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <title>Xtea</title>
+    <path id="svg-xtea" d="m22,20.750002l21.75,111.999988l72.500005,0l21.749993,-111.999988l-115.999998,0z"
+          stroke-width="5" stroke="orange" fill="#55AF7B"/>
+    <text transform="matrix(1,0,0,1,0,0) " xml:space="preserve" text-anchor="start"
+          font-family="Helvetica, Arial, sans-serif" font-size="60" id="svg-X" y="83.05" x="59.984375"
+          fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#EB4537">X</text>
+    <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif"
+          font-size="40" id="svg-t" y="122.05" x="49.875" fill-opacity="null" stroke-opacity="null" stroke-width="0"
+          stroke="#000" fill="#EE50F3">t</text>
+    <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif"
+          font-size="40" id="svg-e" y="122.05" x="64.875" fill-opacity="null" stroke-opacity="null" stroke-width="0"
+          stroke="#000" fill="#4286F3">e</text>
+    <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif"
+          font-size="40" id="svg-a" y="122.05" x="90.875" fill-opacity="null" stroke-opacity="null" stroke-width="0"
+          stroke="#000" fill="#FAC230">a</text>
+    <text transform="rotate(-19.89565658569336 129.00000000000003,83.44531250000001) " xml:space="preserve"
+          text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="50" id="svg-J" y="101.05" x="116.5"
+          fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#4286F3">J</text>
+  </g>
+</svg>
