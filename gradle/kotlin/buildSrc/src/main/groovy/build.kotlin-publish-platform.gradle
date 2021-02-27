@@ -1,12 +1,12 @@
 plugins {
-  id 'build.common'
+  id 'build.core'
   //id 'build.kotlin-compile'
   id 'maven-publish'
   id 'java-platform'
   id 'signing'
 }
 
-println "${infos.logPrefix} ${project.name}: import kotlin-publish-platform"
+printer.info("${project.name}: import kotlin-publish-platform")
 
 publishing {
   publications {

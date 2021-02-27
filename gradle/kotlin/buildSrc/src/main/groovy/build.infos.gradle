@@ -3,9 +3,6 @@
  */
 ext["infos"] = [
 
-    //Log prefix
-    logPrefix          : "demo >>>>>>",
-
     //Whether build to snapshot
     snapshot           : false,
 

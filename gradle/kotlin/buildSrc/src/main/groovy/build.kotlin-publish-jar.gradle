@@ -1,11 +1,11 @@
 plugins {
-  id 'build.common'
+  id 'build.core'
   id 'build.kotlin-compile'
   id 'maven-publish'
   id 'signing'
 }
 
-println "${infos.logPrefix} ${project.name}: import kotlin-publish-jar"
+printer.info("${project.name}: import kotlin-publish-jar")
 
 task sourceJar(type: Jar) {
   classifier "sources"
