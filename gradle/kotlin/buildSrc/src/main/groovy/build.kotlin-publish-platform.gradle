@@ -1,6 +1,5 @@
 plugins {
   id 'build.core'
-  //id 'build.kotlin-compile'
   id 'maven-publish'
   id 'java-platform'
   id 'signing'
@@ -67,9 +66,9 @@ publishing {
   }
 
   if (infos.signing) {
-    ext."signing.keyId" = passwords.signing.keyId
-    ext."signing.password" = passwords.signing.password
-    ext."signing.secretKeyRingFile" = passwords.signing.secretKeyRingFile
+    ext."signing.keyId" = passwords.gpg.keyId
+    ext."signing.password" = passwords.gpg.password
+    ext."signing.secretKeyRingFile" = passwords.gpg.secretKeyRingFile
     signing {
       sign publishing.publications.maven
     }

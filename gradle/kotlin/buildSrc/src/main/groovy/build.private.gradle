@@ -1,6 +1,0 @@
-passwords.sonatype.username = 'username'
-passwords.sonatype.password = 'password'
-
-passwords.signing.keyId = 'keyId'
-passwords.signing.password = 'password'
-passwords.signing.secretKeyRingFile = "${privatePath}secretKeyRingFile.gpg"

@@ -2,7 +2,7 @@ plugins {
   id 'build.core'
 }
 
-description = "Build for demo projects"
+description = "Build for Demo projects"
 
 printer.info("Build $project.name")
 
