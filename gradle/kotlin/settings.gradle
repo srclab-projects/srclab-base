@@ -11,7 +11,7 @@ pluginManagement {
 rootProject.name = 'build'
 include('bom', 'test', 'app', 'list', 'utilities')
 
-//Including boat projects
+//Including Demon projects
 //file("${rootDir}/").eachDirMatch(~/demo-.*/) { file ->
 //  include ":${file.name}"
 //}
