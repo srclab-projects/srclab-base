@@ -6,9 +6,9 @@ v1.0.0, 2020-11-11
 * link:readme/[readme]: Readme templates with asciidoc and markdown
 * link:.gitignore[.gitignore]: .gitignore template
 * link:.editorconfig[.editorconfig]: .editorconfig template
-* Gradle Project Templates
+* link:gradle/[gradle]: Gradle Project Templates
 - link:gradle/kotlin/[Kotlin]: kotlin templates
-* Maven Project Templates
+* link:maven/[maven]: Maven Project Templates
 - link:maven/java/[Java]: Java templates
 * link:brew/[brew]: Brew templates
 * link:logo/[logo]: Logo template (SVG)
