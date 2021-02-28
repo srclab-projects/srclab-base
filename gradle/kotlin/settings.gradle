@@ -12,6 +12,6 @@ rootProject.name = 'build'
 include('bom', 'test', 'app', 'list', 'utilities')
 
 //Including Demon projects
-//file("${rootDir}/").eachDirMatch(~/demo-.*/) { file ->
-//  include ":${file.name}"
+//file("${rootDir}/").eachDirMatch(~/demo-.*/) { dir ->
+//  include ":${dir.name}"
 //}
