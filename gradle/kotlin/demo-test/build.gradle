@@ -2,7 +2,7 @@ plugins {
   id "build.kotlin-publish-jar"
 }
 
-description = "Demo Test: Import test frameworks (testng)."
+description = "Demo Test Dependencies Management"
 
 java {
   registerFeature('optionalSupport') {
