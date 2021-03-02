@@ -1,0 +1,17 @@
+import org.springframework.boot.gradle.plugin.SpringBootPlugin
+
+plugins {
+  id 'build.kotlin-publish-platform'
+}
+
+description = "Demo Spring Boot Dependencies Management"
+
+javaPlatform {
+  allowDependencies()
+}
+
+dependencies {
+  api platform(SpringBootPlugin.BOM_COORDINATES)
+  api platform("xyz.srclab.demo:demo-bom:0.0.0")
+  api platform("xyz.srclab.bom:srclab-dependencies:${infos.dependenciesVersion}")
+}
