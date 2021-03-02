@@ -1,0 +1,75 @@
+/*
+ * Info about project.
+ */
+ext["infos"] = [
+
+    //Version
+    version            : "0.0.0",
+
+    //Dependencies version
+    dependenciesVersion: "1.1.1",
+
+    //Group
+    group              : "xyz.srclab.demo.spring.boot",
+
+    //Project url
+    url                : "https://github.com/srclab-projects/demo-spring-boot",
+
+    //Project inception year
+    inceptionYear      : "2020",
+
+    //Licenses
+    licenses           : [
+        [
+            name: "The Apache License, Version 2.0",
+            url : "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        ],
+    ],
+
+    //Developers
+    developers         : [
+        [
+            id   : "demo",
+            name : "demo",
+            email: "demo@demo.com",
+            url  : "https://github.com/demo",
+        ],
+        [
+            id             : "SrcLab",
+            name           : "SrcLab Team",
+            email          : "srclab@163.com",
+            organization   : "SrcLab",
+            organizationUrl: "https://github.com/srclab-projects",
+        ],
+    ],
+
+    //Publish info
+    publish            : [
+        //Whether publish
+        isPublish : false,
+
+        //Whether publish as snapshot
+        isSnapshot: false,
+
+        //Snapshot id
+        snapshotId: "sonatype",
+
+        //Whether publish as Official
+        isOfficial: false,
+
+        //Publish id
+        officialId: "sonatype",
+
+        //Whether signing
+        isSigning : false,
+
+        //Signing id
+        signingId : "gpg",
+
+        //Oss urls
+        urls      : [
+            staging : "https://oss.sonatype.org/service/local/staging/deploy/maven2/",
+            snapshot: "https://oss.sonatype.org/content/repositories/snapshots/",
+        ],
+    ],
+]

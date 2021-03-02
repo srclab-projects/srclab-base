@@ -1,0 +1,32 @@
+plugins {
+  id 'build.kotlin-publish-jar'
+}
+
+description = "Demo Spring Boot Core: Core and basic interfaces, functions and utilities for Spring Boot."
+
+java {
+  registerFeature('optionalSupport') {
+    usingSourceSet(sourceSets.main)
+  }
+}
+
+dependencies {
+  implementation(platform(project(":demo-spring-boot-dependencies")))
+
+  api("xyz.srclab.demo:demo-utilities")
+  api("org.springframework.boot:spring-boot-starter")
+
+  testCompile(project(":demo-spring-boot-starters:demo-spring-boot-starter-test"))
+
+  kapt("org.springframework.boot:spring-boot-autoconfigure-processor:$springBootVersion")
+  kapt("org.springframework.boot:spring-boot-configuration-processor:$springBootVersion")
+
+  //developmentOnly("org.springframework.boot:spring-boot-devtools")
+}
+
+compileJava.inputs.files(processResources)
+
+test {
+  useTestNG()
+  include("**/*Test.class", "**/*TestKt.class")
+}

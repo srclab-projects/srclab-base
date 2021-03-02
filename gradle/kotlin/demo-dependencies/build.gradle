@@ -2,7 +2,7 @@ plugins {
   id 'build.kotlin-publish-platform'
 }
 
-description = "Demo Dependencies: Demo projects dependencies management."
+description = "Demo Dependencies Management"
 
 javaPlatform {
   allowDependencies()

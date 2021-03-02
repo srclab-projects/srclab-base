@@ -1,0 +1,34 @@
+plugins {
+  id 'build.kotlin-publish-jar'
+  id 'application'
+}
+
+description = "Demo App: A demo app."
+
+java {
+  registerFeature('optionalSupport') {
+    usingSourceSet(sourceSets.main)
+  }
+}
+
+dependencies {
+  implementation(platform(project(":demo-spring-boot-dependencies")))
+
+  implementation(project(":demo-spring-boot-starters:demo-spring-boot-starter"))
+}
+
+application {
+  // Define the main class for the application.
+  mainClass = 'xyz.srclab.demo.app.AppKt'
+}
+
+jar {
+  manifest {
+    attributes 'Main-Class': 'xyz.srclab.demo.app.AppKt'
+  }
+}
+
+test {
+  useTestNG()
+  include("**/*Test.class", "**/*TestKt.class")
+}

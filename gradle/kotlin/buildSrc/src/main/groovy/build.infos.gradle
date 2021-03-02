@@ -67,7 +67,7 @@ ext["infos"] = [
         signingId : "gpg",
 
         //Oss urls
-        url       : [
+        urls      : [
             staging : "https://oss.sonatype.org/service/local/staging/deploy/maven2/",
             snapshot: "https://oss.sonatype.org/content/repositories/snapshots/",
         ],
