@@ -1,10 +1,14 @@
 # 标题: 描述
 
+## 变量
+
+* author: Sun Qian
+
 ## 修订
 
 |Date|Revision|Author|Content|
 |---|---|---|---|
-|2020-12-10|1.0.0|Sun Qian <fredsuvn@163.com>|New|
+|2020-12-10|1.0.0|{author}|New|
 
 ## Toc
 
