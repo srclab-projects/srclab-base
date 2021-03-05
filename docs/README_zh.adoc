@@ -1,6 +1,10 @@
 = 标题: 描述
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
+:license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
+:emaill: fredsuvn@163.com
+:url: https://github.com/srclab-projects/srclab-template
+:qq: 1037555759
 
 //image::logo.svg[logo]
 
@@ -14,10 +18,10 @@ Sun Qian <fredsuvn@163.com>
 
 == 目录
 
-- <<section1>>
-- <<section2>>
-- <<contact>>
-- <<license>>
+* <<section1>>
+* <<section2>>
+* <<contact>>
+* <<license>>
 
 [#section1]
 == 章节1
@@ -32,11 +36,11 @@ Sun Qian <fredsuvn@163.com>
 [#contact]
 == 贡献和联系方式
 
-* fredsuvn@163.com
-* https://github.com/srclab-projects
+* {emaill}
+* {url}
 * QQ群: 1037555759
 
 [#license]
 == License
 
-https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
+{license}

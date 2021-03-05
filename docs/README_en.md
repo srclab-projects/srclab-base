@@ -30,9 +30,11 @@ This is section 2
 ## <a id="contact"/>Contribution and Contact
 
 * fredsuvn@163.com
-* https://github.com/srclab-projects
+* https://github.com/srclab-projects/srclab-template
 * QQ group: 1037555759
 
 ## <a id="lecense"/>License
 
-[Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0.html)
+[Apache 2.0 license][license]
+
+[license]: https://www.apache.org/licenses/LICENSE-2.0.html
