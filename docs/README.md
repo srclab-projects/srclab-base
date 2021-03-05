@@ -1,17 +1,24 @@
 # _Welcome_
 
-- Markdown:
-    * [English](README_en.md)
-    * [简体中文](README_zh.md)
+<!--![logo](logo.svg)-->
 
-- AsciiDoc:
-    * [English](README_en.adoc)
-    * [简体中文](README_zh.adoc)
+* Markdown:
+  * [English](README_en.md)
+  * [简体中文](README_zh.md)
 
-More see [docs/](../docs/)
+* AsciiDoc:
+  * [English](README_en.adoc)
+  * [简体中文](README_zh.adoc)
+    More see [docs/](../docs/)
 
 ## _Contact_
 
 * fredsuvn@163.com
-* https://github.com/srclab-projects
+* https://github.com/srclab-projects/srclab-template
 * QQ group: 1037555759
+
+## _License_
+
+[Apache 2.0 license][license]
+
+[license]: https://www.apache.org/licenses/LICENSE-2.0.html

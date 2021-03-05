@@ -2,21 +2,31 @@
 Sun Qian <fredsuvn@163.com>
 v1.0.0, 2020-11-11
 :encoding: UTF-8
+:license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
+:emaill: fredsuvn@163.com
+:url: https://github.com/srclab-projects/srclab-template
+:qq: 1037555759
 
 * link:docs/[docs/]: Document templates with asciidoc and markdown
 * link:.gitignore[.gitignore]: .gitignore template
 * link:.editorconfig[.editorconfig]: .editorconfig template
 * link:gradle/[gradle/]: Gradle Project Templates
-- link:gradle/kotlin/[Kotlin/]: Kotlin project templates
-- link:gradle/kotlin-spring-boot/[kotlin-spring-boot/]: Kotlin Spring Boot project templates
+** link:gradle/kotlin/[Kotlin/]: Kotlin project templates
+** link:gradle/kotlin-spring-boot/[kotlin-spring-boot/]: Kotlin Spring Boot project templates
 * link:maven/[maven/]: Maven Project Templates
-- link:maven/java/[Java/]: Java templates
+** link:maven/java/[Java/]: Java templates
 * link:brew/[brew/]: Brew templates
 * link:logos/[logos/]: Logo templates (SVG)
 * link:logging/[logging/]: Logging file templates (SVG)
 
-== _Contact_
+[#contact]
+== Contribution and Contact
 
-* fredsuvn@163.com
-* https://github.com/srclab-projects
+* {emaill}
+* {url}
 * QQ group: 1037555759
+
+[#license]
+== License
+
+{license}

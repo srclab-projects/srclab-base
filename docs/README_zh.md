@@ -1,5 +1,7 @@
 # 标题: 描述
 
+<!--![logo](logo.svg)-->
+
 ## 变量
 
 * author: Sun Qian
@@ -10,12 +12,12 @@
 |---|---|---|---|
 |2020-12-10|1.0.0|{author}|New|
 
-## Toc
+## 目录
 
-- [章节1](#section1)
-- [章节2](#Section2)
-- [贡献和联系方式](#contact)
-- [License](#lecense)
+* [章节1](#section1)
+* [章节2](#section2)
+* [贡献和联系方式](#contact)
+* [License](#lecense)
 
 ## <a id="section1"/>章节1
 
@@ -33,4 +35,6 @@
 
 ## <a id="license"/>License
 
-[Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0.html)
+[Apache 2.0 license][license]
+
+[license]: https://www.apache.org/licenses/LICENSE-2.0.html
