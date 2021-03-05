@@ -15,7 +15,7 @@
 ## Toc
 
 - [章节1](#section1)
-- [章节2](#Section2)
+- [章节2](#section2)
 - [贡献和联系方式](#contact)
 - [License](#lecense)
 

@@ -15,7 +15,7 @@
 ## Toc
 
 - [Section1](#section1)
-- [Section2](#Section2)
+- [Section2](#section2)
 - [Contribution and Contact](#contact)
 - [License](#lecense)
 
