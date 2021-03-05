@@ -1,4 +1,6 @@
 = 标题: 描述
+Sun Qian <fredsuvn@163.com>
+:encoding: UTF-8
 
 == 修订
 

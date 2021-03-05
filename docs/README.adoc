@@ -1,4 +1,6 @@
 = _Welcome_
+Sun Qian <fredsuvn@163.com>
+:encoding: UTF-8
 
 - Markdown:
 * link:README_en.md[English]
