@@ -1,5 +1,7 @@
 # _Welcome_
 
+<!--![logo](logo.svg)-->
+
 - Markdown:
     * [English](README_en.md)
     * [简体中文](README_zh.md)

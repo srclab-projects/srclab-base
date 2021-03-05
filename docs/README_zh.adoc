@@ -2,6 +2,8 @@
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
 
+//image::logo.svg[logo]
+
 == 修订
 
 [options="header"]

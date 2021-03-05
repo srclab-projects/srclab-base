@@ -2,6 +2,8 @@
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
 
+//image::logo.svg[logo]
+
 - Markdown:
 * link:README_en.md[English]
 * link:README_zh.md[简体中文]
