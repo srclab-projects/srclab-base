@@ -14,10 +14,10 @@
 
 ## Toc
 
-- [章节1](#section1)
-- [章节2](#section2)
-- [贡献和联系方式](#contact)
-- [License](#lecense)
+* [章节1](#section1)
+* [章节2](#section2)
+* [贡献和联系方式](#contact)
+* [License](#lecense)
 
 ## <a id="section1"/>章节1
 

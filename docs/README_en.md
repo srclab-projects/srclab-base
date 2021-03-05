@@ -14,10 +14,10 @@
 
 ## Toc
 
-- [Section1](#section1)
-- [Section2](#section2)
-- [Contribution and Contact](#contact)
-- [License](#lecense)
+* [Section1](#section1)
+* [Section2](#section2)
+* [Contribution and Contact](#contact)
+* [License](#lecense)
 
 ## <a id="section1"/>Section1
 

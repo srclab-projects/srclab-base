@@ -2,14 +2,14 @@
 
 <!--![logo](logo.svg)-->
 
-- Markdown:
-    * [English](README_en.md)
-    * [简体中文](README_zh.md)
+* Markdown:
+  * [English](README_en.md)
+  * [简体中文](README_zh.md)
 
-- AsciiDoc:
-    * [English](README_en.adoc)
-    * [简体中文](README_zh.adoc)
-      More see [docs/](../docs/)
+* AsciiDoc:
+  * [English](README_en.adoc)
+  * [简体中文](README_zh.adoc)
+    More see [docs/](../docs/)
 
 ## _Contact_
 
