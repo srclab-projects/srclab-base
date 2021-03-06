@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>xyz.srclab.demo</groupId>
+    <artifactId>demo-build</artifactId>
+    <version>0.0.0</version>
+  </parent>
+  <artifactId>demo-bom</artifactId>
+  <packaging>pom</packaging>
+
+  <description>Demo Bom</description>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>xyz.srclab.demo</groupId>
+        <artifactId>demo-app</artifactId>
+        <version>0.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>xyz.srclab.demo</groupId>
+        <artifactId>demo-lib</artifactId>
+        <version>0.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>xyz.srclab.demo</groupId>
+        <artifactId>demo-test</artifactId>
+        <version>0.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>xyz.srclab.demo</groupId>
+        <artifactId>demo-dependencies</artifactId>
+        <version>0.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>xyz.srclab.demo</groupId>
+        <artifactId>demo-bom</artifactId>
+        <version>0.0.0</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

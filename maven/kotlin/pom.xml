@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>xyz.srclab.demo</groupId>
+  <artifactId>demo-build</artifactId>
+  <version>0.0.0</version>
+  <packaging>pom</packaging>
+
+  <description>Demo Build</description>
+  <url>${info.url}</url>
+
+  <properties>
+    <!-- Base -->
+    <main.basedir>${project.basedir}</main.basedir>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>1.8</java.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <encoding>UTF-8</encoding>
+
+    <!-- Kotlin -->
+    <kotlin.code.style>official</kotlin.code.style>
+    <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
+
+    <!-- infos -->
+    <info.url>https://github.com/srclab-projects/demo</info.url>
+
+    <!-- Build plugin version -->
+    <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+    <maven.source.plugin.version>3.2.1</maven.source.plugin.version>
+    <maven.doc.plugin.version>3.2.0</maven.doc.plugin.version>
+    <maven.gpg.plugin.version>1.6</maven.gpg.plugin.version>
+    <maven.release.plugin.version>2.5.3</maven.release.plugin.version>
+  </properties>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>${info.url}</url>
+    <connection>scm:git:${info.url}.git</connection>
+    <developerConnection>scm:git:${info.url}.git</developerConnection>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>fredsuvn</id>
+      <name>孙谦</name>
+      <email>fredsuvn@163.com</email>
+      <url>https://github.com/fredsuvn</url>
+    </developer>
+    <developer>
+      <id>SrcLab</id>
+      <name>SrcLab Team</name>
+      <email>srclab@163.com</email>
+      <organization>SrcLab</organization>
+      <organizationUrl>https://github.com/srclab-projects</organizationUrl>
+    </developer>
+  </developers>
+
+  <!--  <repositories>-->
+  <!--    <repository>-->
+  <!--      <id>mavenCentral</id>-->
+  <!--      <url>https://repo1.maven.org/maven2/</url>-->
+  <!--    </repository>-->
+  <!--  </repositories>-->
+  <pluginRepositories>
+    <pluginRepository>
+      <id>jcenter</id>
+      <name>JCenter</name>
+      <url>https://jcenter.bintray.com/</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <profiles>
+    <profile>
+      <id>gpg</id>
+      <activation>
+        <property>
+          <name>performRelease</name>
+          <value>true</value>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>${maven.gpg.plugin.version}</version>
+            <configuration>
+              <keyname>1BCF94DF</keyname>
+            </configuration>
+            <executions>
+              <execution>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+  <build>
+    <sourceDirectory>demo-lib/src/main/kotlin</sourceDirectory>
+    <testSourceDirectory>demo-lib/src/test/kotlin</testSourceDirectory>
+    <plugins>
+      <plugin>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-maven-plugin</artifactId>
+        <version>1.4.31</version>
+        <executions>
+          <execution>
+            <id>compile</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+            <configuration>
+              <sourceDirs>
+                <sourceDir>${project.basedir}/src/main/kotlin</sourceDir>
+                <sourceDir>${project.basedir}/src/main/java</sourceDir>
+              </sourceDirs>
+            </configuration>
+          </execution>
+          <execution>
+            <id>test-compile</id>
+            <phase>test-compile</phase>
+            <goals>
+              <goal>test-compile</goal>
+            </goals>
+            <configuration>
+              <sourceDirs>
+                <sourceDir>${project.basedir}/src/test/kotlin</sourceDir>
+                <sourceDir>${project.basedir}/src/test/java</sourceDir>
+              </sourceDirs>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.2</version>
+      </plugin>
+      <!--            <plugin>-->
+      <!--                <artifactId>maven-failsafe-plugin</artifactId>-->
+      <!--                <version>2.22.2</version>-->
+      <!--            </plugin>-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven.compiler.plugin.version}</version>
+        <executions>
+          <!-- 替换会被 maven 特别处理的 default-compile -->
+          <execution>
+            <id>default-compile</id>
+            <phase>none</phase>
+          </execution>
+          <!-- 替换会被 maven 特别处理的 default-testCompile -->
+          <execution>
+            <id>default-testCompile</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>java-compile</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>java-test-compile</id>
+            <phase>test-compile</phase>
+            <goals>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+        </configuration>
+      </plugin>
+      <!--      <plugin>-->
+      <!--        <groupId>org.apache.maven.plugins</groupId>-->
+      <!--        <artifactId>maven-source-plugin</artifactId>-->
+      <!--        <version>${maven.source.plugin.version}</version>-->
+      <!--        <configuration>-->
+      <!--          <attach>true</attach>-->
+      <!--        </configuration>-->
+      <!--        <executions>-->
+      <!--          <execution>-->
+      <!--            <phase>package</phase>-->
+      <!--            <goals>-->
+      <!--              <goal>jar-no-fork</goal>-->
+      <!--            </goals>-->
+      <!--          </execution>-->
+      <!--        </executions>-->
+      <!--      </plugin>-->
+      <!--      <plugin>-->
+      <!--        <groupId>org.apache.maven.plugins</groupId>-->
+      <!--        <artifactId>maven-javadoc-plugin</artifactId>-->
+      <!--        <version>${maven.doc.plugin.version}</version>-->
+      <!--        <configuration>-->
+      <!--          <attach>true</attach>-->
+      <!--        </configuration>-->
+      <!--        <executions>-->
+      <!--          <execution>-->
+      <!--            <id>attach-javadocs</id>-->
+      <!--            <goals>-->
+      <!--              <goal>jar</goal>-->
+      <!--            </goals>-->
+      <!--          </execution>-->
+      <!--        </executions>-->
+      <!--      </plugin>-->
+      <plugin>
+        <groupId>org.jetbrains.dokka</groupId>
+        <artifactId>dokka-maven-plugin</artifactId>
+        <version>1.4.20</version>
+        <executions>
+          <execution>
+            <phase>pre-site</phase>
+            <goals>
+              <goal>dokka</goal>
+            </goals>
+          </execution>
+        </executions>
+        <!--        <configuration>-->
+        <!--          <sourceLinks>-->
+        <!--            <link>-->
+        <!--              <path>${project.basedir}</path>-->
+        <!--              <url>https://github.com/JetBrains/kotlin-examples/blob/master/maven/dokka-maven-example</url>-->
+        <!--              <lineSuffix>#L</lineSuffix>-->
+        <!--            </link>-->
+        <!--          </sourceLinks>-->
+        <!--        </configuration>-->
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>${maven.release.plugin.version}</version>
+        <configuration>
+          <goals>deploy</goals>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>oss-snapshots</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>oss</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+    </repository>
+  </distributionManagement>
+
+  <modules>
+    <module>demo-bom</module>
+    <module>demo-dependencies</module>
+    <module>demo-test</module>
+    <module>demo-app</module>
+    <module>demo-lib</module>
+  </modules>
+</project>
