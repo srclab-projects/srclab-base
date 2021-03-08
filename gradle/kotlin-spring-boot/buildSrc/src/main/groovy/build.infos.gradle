@@ -69,7 +69,7 @@ ext["infos"] = [
         //Oss urls
         urls      : [
             staging : "https://oss.sonatype.org/service/local/staging/deploy/maven2/",
-            snapshots: "https://oss.sonatype.org/content/repositories/snapshots/",
+            snapshot: "https://oss.sonatype.org/content/repositories/snapshots/",
         ],
     ],
 ]
