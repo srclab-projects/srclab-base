@@ -52,7 +52,7 @@ ext["infos"] = [
         isSnapshot: false,
 
         //Snapshot id
-        snapshotId: "sonatypeSnapshot",
+        snapshotId: "sonatypeSnapshots",
 
         //Whether publish as Release
         isRelease : false,
@@ -69,7 +69,7 @@ ext["infos"] = [
         //Oss urls
         urls      : [
             staging : "https://oss.sonatype.org/service/local/staging/deploy/maven2/",
-            snapshot: "https://oss.sonatype.org/content/repositories/snapshots/",
+            snapshots: "https://oss.sonatype.org/content/repositories/snapshots/",
         ],
     ],
 ]

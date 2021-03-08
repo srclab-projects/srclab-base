@@ -16,7 +16,7 @@ allprojects { p ->
           username: sonatypeUsername,
           password: sonatypePassword,
       ],
-      sonatypeSnapshot: [
+      sonatypeSnapshots: [
           username: sonatypeUsername,
           password: sonatypePassword,
       ],
