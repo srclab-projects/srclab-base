@@ -12,11 +12,15 @@
 
 allprojects { p ->
   ext["passwords"] = [
-      sonatype: [
+      sonatype        : [
           username: sonatypeUsername,
           password: sonatypePassword,
       ],
-      gpg     : [
+      sonatypeSnapshot: [
+          username: sonatypeUsername,
+          password: sonatypePassword,
+      ],
+      gpg             : [
           keyId            : gpgKeyId,
           password         : gpgPassword,
           secretKeyRingFile: gpgSecretKeyRingFile,

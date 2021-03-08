@@ -43,32 +43,32 @@ publishing {
 
   repositories {
     mavenLocal()
-    if (infos.sonatype) {
+    if (infos.publish.isSnapshot) {
       maven {
-        name = "sonatype"
-        url = infos.oss.staging
+        name = "${infos.publish.snapshotId}"
+        url = infos.publish.urls.snapshot
         credentials {
-          username = "${passwords.sonatype.username}"
-          password = "${passwords.sonatype.password}"
+          username = "${passwords."${infos.publish.snapshotId}".username}"
+          password = "${passwords."${infos.publish.snapshotId}".password}"
         }
       }
-      if (infos.snapshot) {
-        maven {
-          name = "sonatypeSnapshot"
-          url = infos.oss.snapshot
-          credentials {
-            username = "${passwords.sonatype.username}"
-            password = "${passwords.sonatype.password}"
-          }
+    }
+    if (infos.publish.isRelease) {
+      maven {
+        name = "${infos.publish.releaseId}"
+        url = infos.publish.urls.staging
+        credentials {
+          username = "${passwords."${infos.publish.releaseId}".username}"
+          password = "${passwords."${infos.publish.releaseId}".password}"
         }
       }
     }
   }
 
-  if (infos.signing) {
-    ext."signing.keyId" = passwords.gpg.keyId
-    ext."signing.password" = passwords.gpg.password
-    ext."signing.secretKeyRingFile" = passwords.gpg.secretKeyRingFile
+  if (infos.publish.isSigning) {
+    ext."signing.keyId" = passwords."${infos.publish.signingId}".keyId
+    ext."signing.password" = passwords."${infos.publish.signingId}".password
+    ext."signing.secretKeyRingFile" = passwords."${infos.publish.signingId}".secretKeyRingFile
     signing {
       sign publishing.publications.maven
     }

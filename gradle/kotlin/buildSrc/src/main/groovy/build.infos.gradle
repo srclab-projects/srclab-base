@@ -52,13 +52,13 @@ ext["infos"] = [
         isSnapshot: false,
 
         //Snapshot id
-        snapshotId: "sonatype",
+        snapshotId: "sonatypeSnapshot",
 
-        //Whether publish as Official
-        isOfficial: false,
+        //Whether publish as Release
+        isRelease : false,
 
-        //Publish id
-        officialId: "sonatype",
+        //Release id
+        releaseId : "sonatype",
 
         //Whether signing
         isSigning : false,
