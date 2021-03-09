@@ -57,7 +57,7 @@ if (infos.publish.enablePublish) {
       if (infos.publish.isRelease) {
         maven {
           name = "${infos.publish.releaseId}"
-          url = infos.publish.urls.staging
+          url = infos.publish.urls.release
           credentials {
             username = getProperty("publish${infos.publish.releaseId.capitalize()}Username")
             password = getProperty("publish${infos.publish.releaseId.capitalize()}Password")
