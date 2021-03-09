@@ -52,7 +52,7 @@ ext["infos"] = [
         isSnapshot: false,
 
         //Snapshot id
-        snapshotId: "sonatypeSnapshots",
+        snapshotId: "sonatype",
 
         //Whether publish as Release
         isRelease : false,

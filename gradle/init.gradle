@@ -10,20 +10,20 @@
 //  }
 //}
 
-allprojects { p ->
-  ext["passwords"] = [
-      sonatype        : [
-          username: sonatypeUsername,
-          password: sonatypePassword,
-      ],
-      sonatypeSnapshots: [
-          username: sonatypeUsername,
-          password: sonatypePassword,
-      ],
-      gpg             : [
-          keyId            : gpgKeyId,
-          password         : gpgPassword,
-          secretKeyRingFile: gpgSecretKeyRingFile,
-      ],
-  ]
-}
+//allprojects { p ->
+//  ext["passwords"] = [
+//      sonatype        : [
+//          username: sonatypeUsername,
+//          password: sonatypePassword,
+//      ],
+//      sonatypeSnapshots: [
+//          username: sonatypeUsername,
+//          password: sonatypePassword,
+//      ],
+//      gpg             : [
+//          keyId            : gpgKeyId,
+//          password         : gpgPassword,
+//          secretKeyRingFile: gpgSecretKeyRingFile,
+//      ],
+//  ]
+//}
