@@ -46,7 +46,7 @@ ext["infos"] = [
     //Publish info
     publish            : [
         //Whether publish
-        isPublish : false,
+        enablePublish : false,
 
         //Whether publish as snapshot
         isSnapshot: false,

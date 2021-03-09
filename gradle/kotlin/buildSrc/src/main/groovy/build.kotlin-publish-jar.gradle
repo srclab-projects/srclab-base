@@ -34,7 +34,7 @@ artifacts {
 //compileKotlin.inputs.files(processResources)
 //compileJava.inputs.files(processResources)
 
-if (infos.publish.isPublish) {
+if (infos.publish.enablePublish) {
   publishing {
     publications {
       maven(MavenPublication) {
@@ -94,8 +94,8 @@ if (infos.publish.isPublish) {
           name = "${infos.publish.releaseId}"
           url = infos.publish.urls.staging
           credentials {
-            username = getProperty("publish${infos.publish.snapshotId.capitalize()}Username")
-            password = getProperty("publish${infos.publish.snapshotId.capitalize()}Password")
+            username = getProperty("publish${infos.publish.releaseId.capitalize()}Username")
+            password = getProperty("publish${infos.publish.releaseId.capitalize()}Password")
           }
         }
       }

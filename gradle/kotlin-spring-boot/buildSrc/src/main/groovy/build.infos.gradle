@@ -46,28 +46,28 @@ ext["infos"] = [
     //Publish info
     publish            : [
         //Whether publish
-        isPublish : false,
+        enablePublish: false,
 
         //Whether publish as snapshot
-        isSnapshot: false,
+        isSnapshot   : false,
 
         //Snapshot id
-        snapshotId: "sonatype",
+        snapshotId   : "sonatype",
 
         //Whether publish as Release
-        isRelease : false,
+        isRelease    : false,
 
         //Release id
-        releaseId : "sonatype",
+        releaseId    : "sonatype",
 
         //Whether signing
-        isSigning : false,
+        isSigning    : false,
 
         //Signing id
-        signingId : "gpg",
+        signingId    : "gpg",
 
         //Oss urls
-        urls      : [
+        urls         : [
             staging : "https://oss.sonatype.org/service/local/staging/deploy/maven2/",
             snapshot: "https://oss.sonatype.org/content/repositories/snapshots/",
         ],
