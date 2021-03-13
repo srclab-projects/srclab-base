@@ -36,13 +36,13 @@
       J
     </text>
     <text id="svg-spring"
-          x="33" y="23"
+          x="33" y="28"
           font-family="Helvetica, Arial, sans-serif" font-size="30"
           fill="#6CB33D">
       Spring
     </text>
     <text id="svg-spring"
-          x="48" y="173"
+          x="48" y="168"
           font-family="Helvetica, Arial, sans-serif" font-size="30"
           fill="#6CB33D">
       Boot
