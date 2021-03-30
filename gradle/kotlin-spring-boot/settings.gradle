@@ -1,12 +1,14 @@
-pluginManagement {
-  repositories {
-    gradlePluginPortal()
-    jcenter()
-  }
-  plugins {
-    id "org.jetbrains.kotlin.jvm" version "${kotlinVersion}"
-  }
-}
+//pluginManagement {
+//  repositories {
+//    maven {
+//      url "https://maven.aliyun.com/repository/gradle-plugin"
+//    }
+//    gradlePluginPortal()
+//  }
+//  plugins {
+//    id "org.jetbrains.kotlin.jvm" version "${kotlinVersion}"
+//  }
+//}
 
 rootProject.name = 'demo-spring-boot-build'
 

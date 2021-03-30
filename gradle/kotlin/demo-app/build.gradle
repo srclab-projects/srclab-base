@@ -17,6 +17,9 @@ dependencies {
   implementation(project(":demo-utilities"))
 
   testCompile(project(":demo-test"))
+
+  testAnnotationProcessor(platform(project(":demo-dependencies")))
+  testAnnotationProcessor("org.openjdk.jmh:jmh-generator-annprocess")
 }
 
 application {

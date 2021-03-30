@@ -17,7 +17,7 @@
 * [Section1](#section1)
 * [Section2](#section2)
 * [Contribution and Contact](#contact)
-* [License](#lecense)
+* [License](#license)
 
 ## <a id="section1"/>Section1
 
