@@ -11,18 +11,18 @@ java {
 }
 
 dependencies {
-  implementation(platform(project(":demo-spring-boot-dependencies")))
+  api platform(project(":demo-spring-boot-dependencies"))
 
-  api("xyz.srclab.demo:demo-utilities")
-  api("org.springframework.boot:spring-boot-starter")
+  api "xyz.srclab.demo:demo-utilities"
+  api "org.springframework.boot:spring-boot-starter"
 
-  testCompile(project(":demo-spring-boot-starters:demo-spring-boot-starter-test"))
+  testCompile project(":demo-spring-boot-starters:demo-spring-boot-starter-test")
 
-  kapt(platform(project(":demo-spring-boot-dependencies")))
-  kapt("org.springframework.boot:spring-boot-autoconfigure-processor")
-  kapt("org.springframework.boot:spring-boot-configuration-processor")
+  kapt platform(project(":demo-spring-boot-dependencies"))
+  kapt "org.springframework.boot:spring-boot-autoconfigure-processor"
+  kapt "org.springframework.boot:spring-boot-configuration-processor"
 
-  //developmentOnly("org.springframework.boot:spring-boot-devtools")
+  //developmentOnly "org.springframework.boot:spring-boot-devtools"
 }
 
 compileJava.inputs.files(processResources)

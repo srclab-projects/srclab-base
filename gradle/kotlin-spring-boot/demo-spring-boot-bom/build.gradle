@@ -13,12 +13,12 @@ dependencies {
     file("${rootDir}/").eachDir { dir ->
       if (dir.name == "demo-spring-boot-starters") {
         dir.eachDir { subDir ->
-          api(project(":${dir.name}:${subDir.name}"))
+          api project(":${dir.name}:${subDir.name}")
         }
         return
       }
       if (dir.name.startsWith("demo-spring-boot-")) {
-        api(project(":${dir.name}"))
+        api project(":${dir.name}")
       }
     }
   }
