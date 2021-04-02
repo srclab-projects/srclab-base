@@ -9,7 +9,5 @@ javaPlatform {
 }
 
 dependencies {
-  constraints {
-    api(project(":demo-spring-boot-bom"))
-  }
+  api platform(project(":demo-spring-boot-bom"))
 }

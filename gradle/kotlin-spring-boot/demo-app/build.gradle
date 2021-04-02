@@ -12,12 +12,10 @@ java {
 }
 
 dependencies {
-  implementation(platform(project(":demo-spring-boot-dependencies")))
+  implementation project(":demo-spring-boot-starters:demo-spring-boot-starter")
 
-  implementation(project(":demo-spring-boot-starters:demo-spring-boot-starter"))
-
-  testAnnotationProcessor(platform(project(":demo-spring-boot-dependencies")))
-  testAnnotationProcessor("org.openjdk.jmh:jmh-generator-annprocess")
+  testAnnotationProcessor platform(project(":demo-spring-boot-dependencies"))
+  testAnnotationProcessor "org.openjdk.jmh:jmh-generator-annprocess"
 }
 
 application {

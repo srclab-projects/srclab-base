@@ -11,11 +11,11 @@ java {
 }
 
 dependencies {
-  implementation(platform(project(":demo-spring-boot-dependencies")))
+  api platform(project(":demo-spring-boot-dependencies"))
 
-  api("xyz.srclab.demo:demo-test")
-  api("org.springframework.boot:spring-boot-starter-test")
-  api("org.openjdk.jmh:jmh-core")
+  api "xyz.srclab.demo:demo-test"
+  api "org.springframework.boot:spring-boot-starter-test"
+  api "org.openjdk.jmh:jmh-core"
 }
 
 test {
