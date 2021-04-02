@@ -11,9 +11,9 @@ java {
 }
 
 dependencies {
-  implementation(platform(project(":demo-dependencies")))
+  api platform(project(":demo-dependencies"))
 
-  testCompile(project(":demo-test"))
+  testCompile project(":demo-test")
 }
 
 test {

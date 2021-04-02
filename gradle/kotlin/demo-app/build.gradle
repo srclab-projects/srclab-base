@@ -12,14 +12,12 @@ java {
 }
 
 dependencies {
-  implementation(platform(project(":demo-dependencies")))
+  implementation project(":demo-utilities")
 
-  implementation(project(":demo-utilities"))
+  testCompile project(":demo-test")
 
-  testCompile(project(":demo-test"))
-
-  testAnnotationProcessor(platform(project(":demo-dependencies")))
-  testAnnotationProcessor("org.openjdk.jmh:jmh-generator-annprocess")
+  testAnnotationProcessor platform(project(":demo-dependencies"))
+  testAnnotationProcessor "org.openjdk.jmh:jmh-generator-annprocess"
 }
 
 application {
