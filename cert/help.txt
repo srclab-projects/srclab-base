@@ -1,0 +1,34 @@
+# generate our private key:
+#openssl genrsa -des3 -out myCA.key 2048
+openssl genrsa -out myCA.key 2048
+
+# generate a root certificate
+#openssl req -x509 -new -nodes -key myCA.key -sha256 -days 365 -out myCA.pem
+openssl req -x509 -new -nodes -key myCA.key -sha256 -days 365 -out myCA.pem -config openssl.cnf
+
+# generate CSR:
+openssl req -new -key myKey.key -out myCsr.csr
+
+# signing
+openssl x509 -req -in myCsr.csr -CA myCA.pem -CAkey myCA.key -CAcreateserial -out myCrt.crt -days 825 -sha256 -extfile myExt.ext
+
+# generate for server
+openssl genrsa -out myServer.key 2048
+openssl req -new -key myServer.key -out myServer.csr -config openssl.cnf
+openssl x509 -req -in myServer.csr -CA myCA.pem -CAkey myCA.key -CAcreateserial -out myServer.crt -days 365 -extfile my.ext
+cat myServer.crt myServer.key> myServer.pem
+
+# generate for client
+openssl genrsa -out myClient.key 2048
+openssl req -new -key myClient.key -out myClient.csr -config openssl.cnf
+openssl x509 -req -in myClient.csr -CA myCA.pem -CAkey myCA.key -CAcreateserial -out myClient.crt -days 365 -extfile my.ext
+cat myClient.crt myClient.key> myClient.pem
+
+# finally
+Server: myServer.key, myServer.crt, myServer.pem
+Client: myClient.key, myClient.crt, myClient.pem
+
+pfx(p12):
+openssl pkcs12 -export -in myServer.crt -out myServer.p12 -inkey myServer.key
+pfx(8)
+openssl pkcs8 -topk8 -nocrypt -in myServer.pem -out myServer.pem.pcks8
