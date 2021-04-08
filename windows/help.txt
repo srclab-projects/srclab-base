@@ -1,0 +1,3 @@
+netstat -aon|findstr "8080"
+tasklist|findstr "pid"
+taskkill /T /F /PID 9088

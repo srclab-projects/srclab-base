@@ -20,6 +20,8 @@ v1.0.0, 2020-11-11
 * link:logging/[logging/]: Logging file templates
 * link:addresses/[addresses/]: Addresses, such as repositories
 * link:git/[git/]: Git documents
+* link:cert/[cert/]: About cert
+* link:windows/[windows/]: About Windows
 
 [#contact]
 == Contribution and Contact
