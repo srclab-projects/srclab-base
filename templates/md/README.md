@@ -9,9 +9,9 @@
   * [简体中文](README_zh.md)
 
 * AsciiDoc:
-  * [English](README_en.adoc)
-  * [简体中文](README_zh.adoc)
-    More see [docs/](../docs/)
+  * [English](../adoc/README_en.adoc)
+  * [简体中文](../adoc/README_zh.adoc)
+    More see [docs/](/)
 
 ## _Contact_
 
