@@ -16,7 +16,7 @@ Sun Qian <fredsuvn@163.com>
 ** link:README_en.adoc[English]
 ** link:README_zh.adoc[简体中文]
 
-More see link:../docs/[docs/]
+More see link:../adoc/[docs/]
 
 [#contact]
 == _Contribution and Contact_

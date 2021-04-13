@@ -8,21 +8,16 @@
     <groupId>xyz.srclab.demo</groupId>
     <artifactId>demo-dependencies</artifactId>
     <version>0.0.0</version>
-    <relativePath>../demo-dependencies</relativePath>
+    <relativePath>../demo-dependencies/pom.xml</relativePath>
   </parent>
-  <artifactId>demo-app</artifactId>
+  <artifactId>demo-test</artifactId>
 
-  <description>Demo App</description>
+  <description>Demo Test Dependencies Management</description>
 
   <dependencies>
     <dependency>
-      <groupId>xyz.srclab.demo</groupId>
-      <artifactId>demo-lib</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>xyz.srclab.demo</groupId>
-      <artifactId>demo-test</artifactId>
-      <scope>test</scope>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-test-testng</artifactId>
     </dependency>
   </dependencies>
 </project>
