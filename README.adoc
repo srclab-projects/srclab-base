@@ -1,4 +1,5 @@
 = SrcLab Base: Base and Center of Source Lab
+:toc:
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
 :emaill: fredsuvn@163.com
@@ -6,8 +7,6 @@ Sun Qian <fredsuvn@163.com>
 :license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
 
 :qq-group: QQ group: 1037555759
-
-:toc:
 
 == Introduction
 
