@@ -11,7 +11,7 @@ Sun Qian <fredsuvn@163.com>
 == Introduction
 
 This repository is base of SrcLab -- Source Lab --  an organization which is interested in, studies, researches and plays everything.
-The base stores SrcLab's global static resources, metadata, public infos, shared manuals, template files and more other resources.
+The base stores SrcLab's global static resources, metadata, public infos, shared manuals, template files, tools and more other resources.
 
 == Resources
 
@@ -34,9 +34,7 @@ The base stores SrcLab's global static resources, metadata, public infos, shared
 ** link:templates/logging/[logging/]: Logging template files;
 ** link:templates/svg/[svg/]: SVG template files;
 
-* link:.gitignore[.gitignore]: .gitignore file;
-
-* link:.editorconfig[.editorconfig]: .editorconfig file;
+* link:tools/[tools/]: Tools;
 
 * link:misc/[misc]: Other resources;
 ** link:misc/brew/[brew/]: Brew files;
