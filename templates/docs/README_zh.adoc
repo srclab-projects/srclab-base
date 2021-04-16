@@ -1,10 +1,14 @@
 = 标题: 描述
+:toc:
+:toclevels: 3
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
-:license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
 :emaill: fredsuvn@163.com
-:url: https://github.com/srclab-projects/srclab-template
-:qq: 1037555759
+:url: https://github.com/srclab-projects/boat
+:license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
+
+:qq-group: QQ group: 1037555759
+:boat-version: 0.0.0
 
 //image::logo.svg[logo]
 
@@ -16,31 +20,26 @@ Sun Qian <fredsuvn@163.com>
 |2020-12-10|1.0.0|{author}|New
 |===
 
-== 目录
+== 简介
 
-* <<section1>>
-* <<section2>>
-* <<contact>>
-* <<license>>
+//image::logo.svg[logo]
 
-[#section1]
+这是简介
+
 == 章节1
 
 这是章节1
 
-[#section2]
 == 章节2
 
 这是章节2
 
-[#contact]
 == 贡献和联系方式
 
 * {emaill}
 * {url}
-* QQ群: 1037555759
+* {qq-group}
 
-[#license]
 == License
 
 {license}

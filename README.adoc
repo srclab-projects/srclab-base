@@ -1,12 +1,12 @@
 = SrcLab Base: Base and Center of Source Lab
-:toc:
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
 :emaill: fredsuvn@163.com
-:url: https://github.com/srclab-projects/srclab-template
+:url: https://github.com/srclab-projects/boat
 :license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
 
 :qq-group: QQ group: 1037555759
+:boat-version: 0.0.0
 
 == Introduction
 
@@ -24,8 +24,7 @@ The base stores SrcLab's global static resources, metadata, public infos, shared
 
 * link:templates/[template/]: Template files;
 ** link:templates/editor-config/[editor-config/]: Editor config files, such as .gitignore, .editorconfig;
-** link:templates/adoc/[docs/]: Asciidoc template files;
-** link:templates/md/[docs/]: Markdown template files;*
+** link:templates/docs/[docs/]: Document template files;
 ** link:templates/gradle/[gradle/]: Gradle Project Templates;
 *** link:templates/gradle/kotlin/[Kotlin/]: Kotlin project templates;
 *** link:templates/gradle/kotlin-spring-boot/[kotlin-spring-boot/]: Kotlin Spring Boot project templates;

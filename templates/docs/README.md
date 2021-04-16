@@ -4,14 +4,17 @@
 
 ## _Choose the doc style and language you like_:
 
-* Markdown:
-  * [English](README_en.md)
-  * [简体中文](README_zh.md)
+- AsciiDoc:
+  * [English](docs/README_en.adoc)
+  * [简体中文](docs/README_zh.adoc)
+- Markdown:
+  * [English](docs/README_en.md)
+  * [简体中文](docs/README_zh.md)
+- HTML:
+  * [English](docs/README_en.html)
+  * [简体中文](docs/README_zh.html)
 
-* AsciiDoc:
-  * [English](../adoc/README_en.adoc)
-  * [简体中文](../adoc/README_zh.adoc)
-    More see [docs/](/)
+More see [docs/](docs/)
 
 ## _Contact_
 
