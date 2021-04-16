@@ -39,7 +39,3 @@ transaction-logs
 secrets.yml
 .gradletasknamecache
 .sts4-cache
-
-!tools/**/bin
-!tools/**/lib
-!tools/**/*.jar

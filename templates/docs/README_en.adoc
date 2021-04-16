@@ -1,12 +1,14 @@
 = Title: A description
+:toc:
+:toclevels: 3
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
-:license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
 :emaill: fredsuvn@163.com
-:url: https://github.com/srclab-projects/srclab-template
-:qq: 1037555759
+:url: https://github.com/srclab-projects/boat
+:license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
 
-//image::logo.svg[logo]
+:qq-group: QQ group: 1037555759
+:boat-version: 0.0.0
 
 == Revision
 
@@ -16,31 +18,26 @@ Sun Qian <fredsuvn@163.com>
 |2020-12-10|1.0.0|{author}|New
 |===
 
-== Toc
+== Introduction
 
-* <<section1>>
-* <<section2>>
-* <<contact>>
-* <<license>>
+//image::logo.svg[logo]
 
-[#section1]
+This is introduction
+
 == Section1
 
 This is section 1
 
-[#section2]
 == Section2
 
 This is section 2
 
-[#contact]
 == Contribution and Contact
 
 * {emaill}
 * {url}
-* QQ group: 1037555759
+* {qq-group}
 
-[#license]
 == License
 
 {license}
