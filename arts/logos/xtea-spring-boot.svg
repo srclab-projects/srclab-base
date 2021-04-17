@@ -2,50 +2,50 @@
   <g>
     <title>Xtea Spring Boot</title>
     <path id="svg-xtea-spring-boot"
-          d="M23,23 L137,23 L114,137 L46,137 Z"
+          d="M20,23 L134,23 L111,137 L43,137 Z"
           stroke="orange" stroke-width="5" stroke-miterlimit="100"
           fill="#55AF7B"/>
     <text id="svg-X"
-          x="60" y="74" transform="matrix(1,0,0,1,0,0)"
+          x="57" y="74" transform="matrix(1,0,0,1,0,0)"
           font-family="Helvetica, Arial, sans-serif" font-size="60"
           fill="#EB4537">
       X
     </text>
     <text id="svg-t"
-          x="48" y="130"
+          x="45" y="130"
           font-family="Helvetica, Arial, sans-serif" font-size="40"
           fill="#EE50F3">
       t
     </text>
     <text id="svg-e"
-          x="64" y="130"
+          x="61" y="130"
           font-family="Helvetica, Arial, sans-serif" font-size="40"
           fill="#4286F3">
       e
     </text>
     <text id="svg-a"
-          x="89" y="130"
+          x="86" y="130"
           font-family="Helvetica, Arial, sans-serif" font-size="40"
           fill="#FAC230">
       a
     </text>
     <text id="svg-J"
-          x="110" y="100" transform="rotate(-18 135,75)"
+          x="107" y="100" transform="rotate(-18 132,75)"
           font-family="Helvetica, Arial, sans-serif" font-size="66"
           fill="#4286F3">
       J
     </text>
     <path id="svg-label"
-          d="M43,78 L117,78 L117,100 L43,100 Z"
+          d="M40,78 L114,78 L114,100 L40,100 Z"
           fill="azure"/>
     <text id="svg-spring"
-          x="45" y="90"
+          x="42" y="90"
           font-family="Helvetica, Arial, sans-serif" font-size="14"
           fill="#6CB33D">
       Spring
     </text>
     <text id="svg-spring"
-          x="85" y="98"
+          x="82" y="98"
           font-family="Helvetica, Arial, sans-serif" font-size="14"
           fill="#6CB33D">
       Boot
