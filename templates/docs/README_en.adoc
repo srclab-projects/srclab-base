@@ -1,3 +1,4 @@
+//= image:logo.svg[logo] Title: A description
 = Title: A description
 :toc:
 :toclevels: 3
@@ -19,8 +20,6 @@ Sun Qian <fredsuvn@163.com>
 |===
 
 == Introduction
-
-//image::logo.svg[logo]
 
 This is introduction
 

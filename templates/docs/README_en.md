@@ -1,6 +1,6 @@
-# Title: description
+[//]: <> (# ![logo](logo.svg) Title: description)
 
-<!--![logo](logo.svg)-->
+# Title: description
 
 ## Variables
 

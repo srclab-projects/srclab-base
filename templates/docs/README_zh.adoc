@@ -1,3 +1,4 @@
+//= image:logo.svg[logo] 标题: 描述
 = 标题: 描述
 :toc:
 :toclevels: 3
@@ -10,8 +11,6 @@ Sun Qian <fredsuvn@163.com>
 :qq-group: QQ group: 1037555759
 :boat-version: 0.0.0
 
-//image::logo.svg[logo]
-
 == 修订
 
 [options="header"]
@@ -21,8 +20,6 @@ Sun Qian <fredsuvn@163.com>
 |===
 
 == 简介
-
-//image::logo.svg[logo]
 
 这是简介
 
