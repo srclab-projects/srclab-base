@@ -35,6 +35,8 @@ The base stores SrcLab's global static resources, metadata, public infos, shared
 
 * link:tools/[tools/]: Tools;
 
+* link:arts/[arts/]: Arts is a collection of logos, fonts and other artworks about SrcLab;
+
 * link:misc/[misc]: Other resources;
 ** link:misc/brew/[brew/]: Brew files;
 
