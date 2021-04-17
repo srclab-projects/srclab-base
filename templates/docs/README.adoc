@@ -1,3 +1,4 @@
+//= image:logo.svg[logo] _Welcome_
 = _Welcome_
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
@@ -7,8 +8,6 @@ Sun Qian <fredsuvn@163.com>
 
 :qq-group: QQ group: 1037555759
 :boat-version: 0.0.0
-
-//image::logo.svg[logo]
 
 == _Choose the doc style and language you like_:
 
