@@ -1,4 +1,4 @@
-[//]: <> (# ![logo](logo.svg) Title: description)
+[//]: # "# ![logo](logo.svg) Title: description"
 
 # Title: description
 
