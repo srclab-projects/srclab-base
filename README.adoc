@@ -8,6 +8,8 @@ Sun Qian <fredsuvn@163.com>
 :qq-group: QQ group: 1037555759
 :boat-version: 0.0.0
 
+image::logo.svg[SrcLab]
+
 == Introduction
 
 This repository is base of SrcLab -- Source Lab --  an organization which is interested in, studies, researches and plays everything.
@@ -34,6 +36,10 @@ The base stores SrcLab's global static resources, metadata, public infos, shared
 ** link:templates/svg/[svg/]: SVG template files;
 
 * link:tools/[tools/]: Tools;
+
+* link:arts/[arts/]: Arts is a collection of logos, fonts and other artworks about SrcLab;
+** link:arts/logos/[logos/]: Logos;
+** link:arts/fonts/[fonts/]: Fonts;
 
 * link:misc/[misc]: Other resources;
 ** link:misc/brew/[brew/]: Brew files;
