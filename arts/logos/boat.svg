@@ -1,39 +1,36 @@
-<svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
+<svg width="120" height="60" xmlns="http://www.w3.org/2000/svg">
   <g>
     <title>Boat</title>
-    <path id="svg-boat"
-          d="M25,40 L275,40 L175,90 L75,90 Z" transform="rotate(-4, 25, 30)"
-          stroke="orange" stroke-width="5" stroke-miterlimit="100"
-          fill="#55AF7B"/>
-    <text id="svg-B"
-          x="80" y="74"
-          font-family="Helvetica, Arial, sans-serif" font-size="36"
-          fill="#4286F3">
-      B
-    </text>
-    <text id="svg-o"
-          x="110" y="70"
-          font-family="Helvetica, Arial, sans-serif" font-size="36"
-          fill="#EB4537">
-      o
-    </text>
-    <text id="svg-a"
-          x="136" y="67"
-          font-family="Helvetica, Arial, sans-serif" font-size="36"
-          fill="#FAC230">
-      a
-    </text>
-    <text id="svg-t"
-          x="165" y="66"
-          font-family="Helvetica, Arial, sans-serif" font-size="36"
-          fill="#4286F3">
-      t
-    </text>
-    <text id="svg-J"
-          x="40" y="105" transform="rotate(45 65,100)"
-          font-family="Helvetica, Arial, sans-serif" font-size="50"
-          fill="#EE50F3">
-      J
-    </text>
+    <path id="boat-boat"
+          d="M10,10 l100,0 l-20,30 l-60,0 z"
+          fill="BurlyWood"/>
+    <path id="boat-B"
+          d="M30,15 m2,0 l12,5 l-12,5 l15,5 l-15,5 z"
+          stroke="Red" stroke-width="2" stroke-miterlimit="100"
+          fill="none"/>
+    <path id="boat-o"
+          d="M50,15 m0,13.5 l6.5,-6.5 l6.5,6.5 l-6.5,6.5 z"
+          stroke="RoyalBlue" stroke-width="2" stroke-miterlimit="100"
+          fill="none"/>
+    <path id="boat-a"
+          d="M66,15 m0,7 l10,0 l3,13 l-13,-4.3 l11,-4.3"
+          stroke="Magenta" stroke-width="2" stroke-miterlimit="100"
+          fill="none"/>
+    <path id="boat-t"
+          d="M79,15 m2,7 l8,0 m-3.5,-5 l0,18 l3,-5"
+          stroke="ForestGreen" stroke-width="2" stroke-miterlimit="100"
+          fill="none"/>
+    <path id="boat-J"
+          d="M30,40 m10,2 l0,13 l-5,-5"
+          stroke="DeepSkyBlue" stroke-width="1" stroke-miterlimit="100"
+          fill="none"/>
+    <path id="boat-V"
+          d="M45,40 m2.5,2 l6,13 l6,-13"
+          stroke="DeepSkyBlue" stroke-width="1" stroke-miterlimit="100"
+          fill="none"/>
+    <path id="boat-V"
+          d="M60,40 m4,17 l5,-13 l5,13 l5,-13 l5,13"
+          stroke="DeepSkyBlue" stroke-width="1" stroke-miterlimit="100"
+          fill="none"/>
   </g>
 </svg>
