@@ -1,35 +1,36 @@
 <svg width="120" height="60" xmlns="http://www.w3.org/2000/svg">
   <g>
     <title>Boat</title>
-    <path id="boat-boat"
+    <path id="svg-boat"
           d="M10,10 l100,0 l-20,30 l-60,0 z"
           fill="BurlyWood"/>
+
     <path id="boat-B"
-          d="M30,15 m2,0 l12,5 l-12,5 l15,5 l-15,5 z"
+          d="M39,25 m-7.5,-10 l12,5 l-12,5 l15,5 l-15,5 z"
           stroke="Red" stroke-width="2" stroke-miterlimit="100"
           fill="none"/>
     <path id="boat-o"
-          d="M50,15 m0,13.5 l6.5,-6.5 l6.5,6.5 l-6.5,6.5 z"
+          d="M57,25 m-6.5,3.5 l6.5,-6.5 l6.5,6.5 l-6.5,6.5 z"
           stroke="RoyalBlue" stroke-width="2" stroke-miterlimit="100"
           fill="none"/>
     <path id="boat-a"
-          d="M66,15 m0,7 l10,0 l3,13 l-13,-4.3 l11,-4.3"
+          d="M74,25 m-6.5,-3 l10,0 l3,13 l-13,-4.3 l11,-4.3"
           stroke="Magenta" stroke-width="2" stroke-miterlimit="100"
           fill="none"/>
     <path id="boat-t"
-          d="M79,15 m2,7 l8,0 m-3.5,-5 l0,18 l3,-5"
+          d="M86,25 m-3,-3 l7,0 m-3.5,-5 l0,18 l3,-5"
           stroke="ForestGreen" stroke-width="2" stroke-miterlimit="100"
           fill="none"/>
     <path id="boat-J"
-          d="M30,40 m10,2 l0,13 l-5,-5"
+          d="M39,45 m6,-3 l0,8 l-5,2"
           stroke="DeepSkyBlue" stroke-width="1" stroke-miterlimit="100"
           fill="none"/>
     <path id="boat-V"
-          d="M45,40 m2.5,2 l6,13 l6,-13"
+          d="M57,45 m2.5,2 l6,13 l6,-13"
           stroke="DeepSkyBlue" stroke-width="1" stroke-miterlimit="100"
           fill="none"/>
     <path id="boat-V"
-          d="M60,40 m4,17 l5,-13 l5,13 l5,-13 l5,13"
+          d="M77,45 m4,17 l5,-15 l5,15 l5,-15 l5,15"
           stroke="DeepSkyBlue" stroke-width="1" stroke-miterlimit="100"
           fill="none"/>
   </g>

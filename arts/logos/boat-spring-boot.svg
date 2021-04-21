@@ -47,5 +47,45 @@
           fill="#6CB33D">
       Boot
     </text>
+
+    <!--    <text id="svg-B"-->
+    <!--          x="40" y="35" text-anchor="middle"-->
+    <!--          font-family="Helvetica, Arial, sans-serif" font-size="25">-->
+    <!--      B-->
+    <!--    </text>-->
+    <!--    <text id="svg-B"-->
+    <!--          x="56" y="35" text-anchor="middle"-->
+    <!--          font-family="Helvetica, Arial, sans-serif" font-size="25">-->
+    <!--      o-->
+    <!--    </text>-->
+    <!--    <text id="svg-B"-->
+    <!--          x="71" y="35" text-anchor="middle"-->
+    <!--          font-family="Helvetica, Arial, sans-serif" font-size="25">-->
+    <!--      a-->
+    <!--    </text>-->
+    <!--    <text id="svg-B"-->
+    <!--          x="84" y="35" text-anchor="middle"-->
+    <!--          font-family="Helvetica, Arial, sans-serif" font-size="25">-->
+    <!--      t-->
+    <!--    </text>-->
+    <!--    <text id="svg-JVM"-->
+    <!--          x="60" y="55" text-anchor="middle"-->
+    <!--          font-family="Helvetica, Arial, sans-serif" font-size="15"-->
+    <!--          font-weight="bold" textLength="45"-->
+    <!--          fill="DeepSkyBlue">-->
+    <!--      JVM-->
+    <!--    </text>-->
+    <!--    <text id="svg-V"-->
+    <!--          x="60" y="55" text-anchor="middle"-->
+    <!--          font-family="Helvetica, Arial, sans-serif" font-size="15"-->
+    <!--          font-weight="bold">-->
+    <!--      V-->
+    <!--    </text>-->
+    <!--    <text id="svg-M"-->
+    <!--          x="80" y="55" text-anchor="middle"-->
+    <!--          font-family="Helvetica, Arial, sans-serif" font-size="15"-->
+    <!--          font-weight="bold">-->
+    <!--      M-->
+    <!--    </text>-->
   </g>
 </svg>
