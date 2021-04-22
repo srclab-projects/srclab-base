@@ -1,14 +1,12 @@
-= SrcLab Base: Base and Center of Source Lab
+= image:logo.svg[SrcLab] SrcLab Base: Base and Center of Source Lab
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
 :emaill: fredsuvn@163.com
-:url: https://github.com/srclab-projects/boat
+:url: https://github.com/srclab-projects/srclab-base
 :license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
 
 :qq-group: QQ group: 1037555759
 :boat-version: 0.0.0
-
-image::logo.svg[SrcLab]
 
 == Introduction
 
