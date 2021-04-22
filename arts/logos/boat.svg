@@ -2,36 +2,48 @@
   <g>
     <title>Boat</title>
     <path id="svg-boat"
-          d="M10,10 l100,0 l-20,30 l-60,0 z"
-          fill="BurlyWood"/>
-
+          d="M0,0 l120,0 l-20,40 l-80,0 z"
+          fill="url(#boat-boat)"/>
     <path id="boat-B"
-          d="M39,25 m-7.5,-10 l12,5 l-12,5 l15,5 l-15,5 z"
-          stroke="Red" stroke-width="2" stroke-miterlimit="100"
+          d="M29,35 m-9,-30 l15,7.5 l-15,7.5 l18,7.5 l-18,7.5 z"
+          stroke="Crimson" stroke-width="3" stroke-miterlimit="100"
           fill="none"/>
     <path id="boat-o"
-          d="M57,25 m-6.5,3.5 l6.5,-6.5 l6.5,6.5 l-6.5,6.5 z"
-          stroke="RoyalBlue" stroke-width="2" stroke-miterlimit="100"
+          d="M52,35 m-9,-9 l9,-9 l9,9 l-9,9 z"
+          stroke="SaddleBrown" stroke-width="3" stroke-miterlimit="100"
           fill="none"/>
     <path id="boat-a"
-          d="M74,25 m-6.5,-3 l10,0 l3,13 l-13,-4.3 l11,-4.3"
-          stroke="Magenta" stroke-width="2" stroke-miterlimit="100"
+          d="M75,35 m-9,-18 l14,0 l4,18 l-18,0 l16,-9"
+          stroke="Orchid" stroke-width="3" stroke-miterlimit="100"
           fill="none"/>
     <path id="boat-t"
-          d="M86,25 m-3,-3 l7,0 m-3.5,-5 l0,18 l3,-5"
-          stroke="ForestGreen" stroke-width="2" stroke-miterlimit="100"
+          d="M94.5,35 m-5,-18 l11,0 m-5.5,-7 l0,25 l5,-9"
+          stroke="OliveDrab" stroke-width="3" stroke-miterlimit="100"
           fill="none"/>
     <path id="boat-J"
-          d="M39,45 m6,-3 l0,8 l-5,2"
-          stroke="DeepSkyBlue" stroke-width="1" stroke-miterlimit="100"
+          d="M30,60 m6,-20 l0,15 l-6,5 l-6,-5"
+          stroke="url(#boat-sea)" stroke-width="4" stroke-miterlimit="0"
           fill="none"/>
     <path id="boat-V"
-          d="M57,45 m2.5,2 l6,13 l6,-13"
-          stroke="DeepSkyBlue" stroke-width="1" stroke-miterlimit="100"
+          d="M55,60 m-7,-20 l7,20 l7,-20"
+          stroke="url(#boat-sea)" stroke-width="4" stroke-miterlimit="0"
           fill="none"/>
-    <path id="boat-V"
-          d="M77,45 m4,17 l5,-15 l5,15 l5,-15 l5,15"
-          stroke="DeepSkyBlue" stroke-width="1" stroke-miterlimit="100"
+    <path id="boat-M"
+          d="M85,60 m-12,0 l6,-20 l6,20 l6,-20 l6,20"
+          stroke="url(#boat-sea)" stroke-width="4" stroke-miterlimit="0"
           fill="none"/>
   </g>
+
+  <defs>
+    <linearGradient id="boat-boat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="BurlyWood"></stop>
+      <stop offset="100%" stop-color="PapayaWhip"></stop>
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="boat-sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="LightSkyBlue"></stop>
+      <stop offset="100%" stop-color="RoyalBlue"></stop>
+    </linearGradient>
+  </defs>
 </svg>
