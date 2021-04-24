@@ -1,6 +1,7 @@
 <svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+  <title>Xtea Spring Boot</title>
+
   <g>
-    <title>Xtea Spring Boot</title>
     <path id="svg-xtea"
           d="M0,0 l120,0 l-20,100 l-80,0 z"
           fill="url(#xtea-cup)"/>

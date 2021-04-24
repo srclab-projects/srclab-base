@@ -1,6 +1,7 @@
 <svg width="120" height="60" xmlns="http://www.w3.org/2000/svg">
+  <title>Boat</title>
+
   <g>
-    <title>Boat</title>
     <path id="svg-boat"
           d="M0,0 l120,0 l-20,40 l-80,0 z"
           fill="url(#boat-boat)"/>
