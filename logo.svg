@@ -44,7 +44,7 @@
       <stop offset="100%" stop-color="PaleGreen"/>
     </linearGradient>
     <linearGradient id="color-ab" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="Blue"/>
+      <stop offset="0%" stop-color="DeepSkyBlue"/>
       <stop offset="100%" stop-color="Violet"/>
     </linearGradient>
   </defs>
