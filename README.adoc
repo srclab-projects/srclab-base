@@ -32,6 +32,7 @@ The base stores SrcLab's global static resources, metadata, public infos, shared
 *** link:templates/maven/kotlin/[Kotlin/]: [line-through]#Kotlin templates# (Use Gradle for Kotlin);
 ** link:templates/logging/[logging/]: Logging template files;
 ** link:templates/svg/[svg/]: SVG template files;
+** link:templates/licenses/[licenses/]: License files;
 
 * link:tools/[tools/]: Tools;
 

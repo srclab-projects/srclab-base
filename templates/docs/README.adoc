@@ -1,5 +1,5 @@
 //= image:logo.svg[logo] _Welcome_
-= _Welcome_
+= Welcome
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
 :emaill: fredsuvn@163.com
@@ -9,7 +9,7 @@ Sun Qian <fredsuvn@163.com>
 :qq-group: QQ group: 1037555759
 :boat-version: 0.0.0
 
-== _Choose the doc style and language you like_:
+== Choose doc style you like:
 
 * AsciiDoc:
 ** link:README_en.adoc[English]
@@ -23,12 +23,12 @@ Sun Qian <fredsuvn@163.com>
 
 More see link:../docs/[docs/]
 
-== _Contribution and Contact_
+== Contribution and Contact
 
 * {emaill}
 * {url}
 * {qq-group}
 
-== _License_
+== License
 
 {license}
