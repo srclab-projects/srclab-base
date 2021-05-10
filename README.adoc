@@ -1,47 +1,52 @@
-= image:logo.svg[SrcLab] SrcLab Base: Base and Center of Source Lab
+= image:logo.svg[SrcLab] Welcome to Source Lab
+:toc:
+:toclevels: 3
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
 :emaill: fredsuvn@163.com
-:url: https://github.com/srclab-projects/srclab-base
+:url: https://github.com/srclab-projects/srclab-home
 :license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
 
+:projects-url: https://github.com/srclab-projects
 :qq-group: QQ group: 1037555759
-:boat-version: 0.0.0
 
-== Introduction
+*Source Lab (simply to SrcLab) is a place where let us fun with coding and researching.
+This project is homepage for Source Lab, here you can find:*
 
-This repository is base of SrcLab -- Source Lab --  an organization which is interested in, studies, researches and plays everything.
-The base stores SrcLab's global static resources, metadata, public infos, shared manuals, template files, tools and more other resources.
+* <<Projects>>: Shared open source projects, join us!
+* <<Resources>>: Shared resources;
+* <<Manuals>>: Various manuals to look up and study;
+* <<Templates>>: Various templates;
+* <<Materials>>: Various materials;
+
+== Projects
+
+{projects-url}
 
 == Resources
 
-* link:infos/[infos/]: Public and shared infos;
+* link:resources/asciidoc/[asciidoc]
+* link:resources/brew/[brew]
 
-* link:manuals/[manuals/]: Shared manuals and books;
-** link:manuals/git/[git/]: Git manual;
-** link:manuals/cert/[cert/]: About cert;
-** link:manuals/windows/[windows/]: About Windows;
+== Manuals
 
-* link:templates/[template/]: Template files;
-** link:templates/editor-config/[editor-config/]: Editor config files, such as .gitignore, .editorconfig;
-** link:templates/docs/[docs/]: Document template files;
-** link:templates/gradle/[gradle/]: Gradle Project Templates;
-*** link:templates/gradle/kotlin/[Kotlin/]: Kotlin project templates;
-*** link:templates/gradle/kotlin-spring-boot/[kotlin-spring-boot/]: Kotlin Spring Boot project templates;
-** link:templates/maven/[maven/]: Maven Project Templates;
-*** link:templates/maven/kotlin/[Kotlin/]: [line-through]#Kotlin templates# (Use Gradle for Kotlin);
-** link:templates/logging/[logging/]: Logging template files;
-** link:templates/svg/[svg/]: SVG template files;
-** link:templates/licenses/[licenses/]: License files;
+* link:manuals/git/[git]
+* link:manuals/windows/[windows]
 
-* link:tools/[tools/]: Tools;
+== Templates
 
-* link:arts/[arts/]: Arts is a collection of logos, fonts and other artworks about SrcLab;
-** link:arts/logos/[logos/]: Logos;
-** link:arts/fonts/[fonts/]: Fonts;
+* link:templates/project-base/[project-base]
+* link:templates/gradle/[gradle]
+* link:templates/maven/[maven]
+* link:templates/docs/[docs]
+* link:templates/svg/[svg]
+* link:templates/licenses/[licenses]
 
-* link:misc/[misc]: Other resources;
-** link:misc/brew/[brew/]: Brew files;
+== Materials
+
+* link:materials/logos/[logos]
+* link:materials/fonts/[fonts]
+* link:materials/cert/[cert]
 
 == Contribution and Contact
 
