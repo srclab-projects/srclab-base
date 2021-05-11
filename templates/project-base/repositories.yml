@@ -1,9 +1,0 @@
-repositories:
-  central: "https://repo1.maven.org/maven2/"
-  jcenter: "https://jcenter.bintray.com/"
-  gradle-plugin: "https://plugins.gradle.org/m2/"
-  ali-all: "https://maven.aliyun.com/mvn/guide"
-  ali-publick: "https://maven.aliyun.com/repository/public"
-  ali-central: "https://maven.aliyun.com/repository/central"
-  ali-jcenter: "https://maven.aliyun.com/repository/public"
-  ali-gradle-plugin: "https://maven.aliyun.com/repository/gradle-plugin"
