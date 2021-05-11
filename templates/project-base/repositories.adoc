@@ -1,0 +1,13 @@
+.Repositories
+* central: "https://repo1.maven.org/maven2/"
+* jcenter: "https://jcenter.bintray.com/"
+* gradle-plugin: "https://plugins.gradle.org/m2/"
+* ali-all: "https://maven.aliyun.com/mvn/guide"
+* ali-publick: "https://maven.aliyun.com/repository/public"
+* ali-central: "https://maven.aliyun.com/repository/central"
+* ali-jcenter: "https://maven.aliyun.com/repository/public"
+* ali-gradle-plugin: "https://maven.aliyun.com/repository/gradle-plugin"
+
+.Publish
+* oss.sonatype.org.snapshot: https://s01.oss.sonatype.org/content/repositories/snapshots
+* oss.sonatype.org.release: https://s01.oss.sonatype.org/service/local/staging/deploy/maven2
