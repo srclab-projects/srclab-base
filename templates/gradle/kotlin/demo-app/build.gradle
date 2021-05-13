@@ -30,8 +30,3 @@ jar {
     attributes 'Main-Class': 'demo.app.AppKt'
   }
 }
-
-test {
-  useTestNG()
-  include("**/*Test.class", "**/*TestKt.class")
-}

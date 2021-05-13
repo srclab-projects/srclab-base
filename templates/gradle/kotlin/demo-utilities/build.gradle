@@ -15,8 +15,3 @@ dependencies {
 
   testCompile project(":demo-test")
 }
-
-test {
-  useTestNG()
-  include("**/*Test.class", "**/*TestKt.class")
-}

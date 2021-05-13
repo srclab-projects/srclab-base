@@ -16,8 +16,3 @@ dependencies {
   api "org.jetbrains.kotlin:kotlin-test-testng"
   api "org.openjdk.jmh:jmh-core"
 }
-
-test {
-  useTestNG()
-  include("**/*Test.class", "**/*TestKt.class")
-}
