@@ -1,5 +1,5 @@
 plugins {
-  id 'build.kotlin-publish-jar'
+  id 'build.jar'
 }
 
 description = "Demo Utilities: Demo utilities."
@@ -14,9 +14,4 @@ dependencies {
   api project(":demo-list")
 
   testCompile project(":demo-test")
-}
-
-test {
-  useTestNG()
-  include("**/*Test.class", "**/*TestKt.class")
 }
