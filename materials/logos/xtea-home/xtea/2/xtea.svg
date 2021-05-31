@@ -17,15 +17,15 @@
     />
     <path id="tray"
           d="M50,50 m-50,10 l100,0 l-15,8 l-70,0 z"
-          fill="Cyan"
+          fill="#007396"
     />
     <text id="element-tea"
           x="50" y="55" text-anchor="middle" font-size="30" font-stretch="extra-expanded"
-          fill="SlateBlue">
+          fill="White">
       tea
     </text>
     <g id="group-text-JVM"
-       text-anchor="middle" font-size="8" font-weight="bold" fill="Red">
+       text-anchor="middle" font-size="8" font-weight="bold" fill="#ED8B00">
       <text id="element-j" x="25" y="68">
         J
       </text>

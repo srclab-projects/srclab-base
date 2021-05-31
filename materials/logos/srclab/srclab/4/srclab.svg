@@ -28,19 +28,19 @@
           fill="Orange"
     />
     <circle
-      cx="50" cy="50" r="25"
-      fill="White"
+      cx="50" cy="50" r="35"
+      fill="Lavender"
     />
   </g>
   <g id="group-text"
-     font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold"
-     fill="Black">
+     font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold"
+     fill="#2EA44F">
     <text id="element-source"
           x="50" y="50" text-anchor="middle">
       Source
     </text>
     <text id="element-lab"
-          x="50" y="64" text-anchor="middle">
+          x="50" y="70" text-anchor="middle">
       Lab
     </text>
   </g>
