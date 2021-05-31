@@ -1,5 +1,5 @@
 <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <title>Xtea</title>
+  <title>Xtea Home</title>
   <g id="group-x">
     <path id="element-x1"
           d="M50,50 m-50,-50 l15,0 l85,100 l-20,0 z"
@@ -12,29 +12,17 @@
   </g>
   <g id="group-text"
      text-anchor="middle" font-weight="bold">
-    <text id="element-xteam" x="50" y="58" font-size="30" fill="OrangeRed">
-      xteam
+    <text id="element-xtea" x="50" y="58" font-size="30" fill="OrangeRed">
+      xtea
     </text>
-    <text id="element-trade" x="40" y="20" font-size="25" fill="DodgerBlue">
-      trade
+    <text id="element-spring" x="50" y="25" font-size="17" fill="#6CB33D">
+      spring-boot
     </text>
-    <text id="element-tdgw" x="20" y="28" font-size="10" fill="Blue">
-      tdgw
+    <text id="element-grpc" x="50" y="80" font-size="16" fill="#2F5E65">
+      gRPC
     </text>
-    <text id="element-elive" x="72" y="40" font-size="20" fill="BlueViolet">
-      elive
-    </text>
-    <text id="element-home" x="25" y="80" font-size="14" fill="Magenta">
-      home
-    </text>
-    <text id="element-user-growth" x="66" y="70" font-size="8" fill="Crimson">
-      user-growth
-    </text>
-    <text id="element-tzt-login" x="80" y="82" font-size="8" fill="HotPink">
-      tzt-login
-    </text>
-    <text id="element-eaccount" x="50" y="98" font-size="20" fill="ForestGreen">
-      eaccount
+    <text id="element-dependencies" x="50" y="98" font-size="14" fill="Magenta">
+      dependencies
     </text>
   </g>
   <defs>
