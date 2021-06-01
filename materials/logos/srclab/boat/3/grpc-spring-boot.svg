@@ -29,35 +29,29 @@
     />
     <circle
       cx="50" cy="50" r="35"
-      fill="SkyBlue"
+      fill="#54BEC6"
     />
     <path id="element-boat"
           d="M50,50 m-32,8 l64,0 l-16,16 l-32,0 z"
-          fill="#2CA1AA"
+          fill="BurlyWood"
     />
     <path id="element-sail"
           d="M50,50 m-8,-32 l24,40 l-24,0 z"
-          fill="#6AAD3D"
+          fill="GhostWhite"
     />
   </g>
   <g id="group-text"
      font-family="Helvetica, Arial, sans-serif" font-weight="bold">
     <text id="element-grpc"
           x="50" y="71" text-anchor="middle" font-size="14"
-          fill="#F7F7F7">
+          fill="#2F5E65">
       gRPC
     </text>
-    <text id="element-spring"
-          x="44" y="57" text-anchor="end" font-size="7"
-          transform="rotate(90, 44, 57)"
-          fill="#F7F7F7">
-      Spring
-    </text>
-    <text id="element-boot"
-          x="50" y="57" text-anchor="end" font-size="7"
-          transform="rotate(90, 50, 57)"
-          fill="#F7F7F7">
-      Boot
+    <text id="element-jvm"
+          x="43" y="57" text-anchor="end" font-size="10"
+          transform="rotate(90, 43, 57)"
+          fill="#54BEC6">
+      JVM
     </text>
   </g>
 </svg>

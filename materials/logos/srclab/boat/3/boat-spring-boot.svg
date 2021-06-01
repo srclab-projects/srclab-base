@@ -37,7 +37,7 @@
     />
     <path id="element-sail"
           d="M50,50 m-8,-32 l24,40 l-24,0 z"
-          fill="#6AAD3D"
+          fill="GhostWhite"
     />
   </g>
   <g id="group-text"
@@ -50,13 +50,13 @@
     <text id="element-spring"
           x="44" y="57" text-anchor="end" font-size="7"
           transform="rotate(90, 44, 57)"
-          fill="#F7F7F7">
+          fill="#6CB33D">
       Spring
     </text>
     <text id="element-boot"
           x="50" y="57" text-anchor="end" font-size="7"
           transform="rotate(90, 50, 57)"
-          fill="#F7F7F7">
+          fill="#6CB33D">
       Boot
     </text>
   </g>

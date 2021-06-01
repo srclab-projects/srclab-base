@@ -37,7 +37,7 @@
     />
     <path id="element-sail"
           d="M50,50 m-8,-32 l24,40 l-24,0 z"
-          fill="#007396"
+          fill="GhostWhite"
     />
   </g>
   <g id="group-text"
@@ -50,7 +50,7 @@
     <text id="element-jvm"
           x="43" y="57" text-anchor="end" font-size="10"
           transform="rotate(90, 43, 57)"
-          fill="#ED8B00">
+          fill="SkyBlue">
       JVM
     </text>
   </g>
