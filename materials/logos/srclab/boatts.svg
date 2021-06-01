@@ -1,5 +1,5 @@
 <svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
-  <title>Boat Spring Boot</title>
+  <title>Boatts</title>
   <g id="group-back">
     <rect id="back-global" x="0" y="0" width="120" height="120" fill="#3f3f3f" stroke="none"/>
   </g>
@@ -26,72 +26,57 @@
           d="M60,60 m-40,-34 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
     />
   </g>
-
   <g id="group-color"
      fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
      stroke-linecap="square" stroke-miterlimit="100"
   >
     <path id="color-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
-          fill="#ec8b00" fill-opacity="0.382"
+          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-right-top"
           d="M60,60 m20,-34 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
-          fill="#7f52ff" fill-opacity="0.382"
+          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-right-bottom"
           d="M60,60 m20,0 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
-          fill="#ec8b00" fill-opacity="0.382"
+          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-bottom"
           d="M60,60 m-10,17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
-          fill="#7f52ff" fill-opacity="0.382"
+          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-left-bottom"
           d="M60,60 m-40,0 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
-          fill="#ec8b00" fill-opacity="0.382"
+          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-left-top"
           d="M60,60 m-40,-34 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
-          fill="#7f52ff" fill-opacity="0.382"
+          fill="#2f74c0" fill-opacity="0.382"
     />
   </g>
   <g id="group-title">
     <path id="title-back"
           d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
           stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
-          fill="#6aad3d" stroke="#6aad3d" filter="url(#filter-light)"
+          fill="#fefefe" stroke="#3f3f3f"
     />
-    <g id="group-title-text"
-       font-family="Inter,Arial,sans-serif" font-size="8" text-anchor="middle"
+    <path id="title-color"
+          d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+          stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
+          fill="BurlyWood" stroke="#3f3f3f" fill-opacity="0.382"
+    />
+    <text id="title-boat" x="60" y="60" text-anchor="middle"
+          font-family="Inter,Arial,sans-serif" font-size="10" font-weight="bold"
+          fill="SaddleBrown"
     >
-      <text id="text-boat" x="60" y="53"
-            fill="SaddleBrown"
-      >
-        Boat
-      </text>
-      <text id="text-spring" x="60" y="63"
-            fill="#f7f7f7"
-      >
-        Spring
-      </text>
-      <text id="text-boot" x="60" y="73"
-            fill="#f7f7f7"
-      >
-        Boot
-      </text>
-    </g>
+      Boat
+    </text>
+    <text id="title-ts" x="60" y="69" text-anchor="middle"
+          font-family="Inter,Arial,sans-serif" font-size="10" font-weight="bold"
+          fill="SaddleBrown"
+    >
+      ts
+    </text>
   </g>
-  <defs>
-    <filter id="filter-light">
-      <feColorMatrix result="colorOut" in="SourceGraphic"
-                     values="0.41569 0 0 0 0
-                             0 0.67843 0 0 0
-                             0 0 0.86667 0 0
-                             0 0 0 1 0"
-      />
-      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="3"/>
-      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
-    </filter>
-  </defs>
 </svg>

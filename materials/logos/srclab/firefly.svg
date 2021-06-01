@@ -1,10 +1,10 @@
 <svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
-  <title>SrcLab Dependencies</title>
+  <title>Firefly</title>
   <g id="group-back">
-    <rect id="back-global" x="0" y="0" width="120" height="120" fill="#3f3f3f" stroke="none"/>
+    <rect id="back-global" x="0" y="0" width="120" height="120" fill="#222222" stroke="none"/>
   </g>
   <g id="group-hive"
-     fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
+     fill="#fefefe" stroke="#f0f000" stroke-width="2"
      stroke-linecap="square" stroke-miterlimit="100"
      filter="url(#filter-light)"
   >
@@ -27,27 +27,35 @@
           d="M60,60 m-40,-34 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
     />
   </g>
-  <g id="group-title"
-     text-anchor="middle" font-family="Inter,Arial,sans-serif"
-     font-size="14" font-style="italic" fill="DarkOrange"
-  >
-    <text id="title-srclab" x="60" y="57">
-      SrcLab
-    </text>
-    <text id="title-dependencies" x="60" y="72">
-      Dependencies
-    </text>
+  <g id="group-title">
+    <circle cx="60" cy="60" r="18" stroke="none"
+            fill="url(#grad-hole)" filter="url(#filter-hole)"
+    />
   </g>
   <defs>
     <filter id="filter-light">
       <feColorMatrix result="colorOut" in="SourceGraphic"
-                     values="1 0 0 0 0
-                             0 0.84314 0 0 0
+                     values="0.94118 0 0 0 0
+                             0 0.94118 0 0 0
                              0 0 0 0 0
                              0 0 0 1 0"
       />
-      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="4"/>
+      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="10"/>
       <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
     </filter>
+    <filter id="filter-hole">
+      <feColorMatrix result="colorOut" in="SourceGraphic"
+                     values="1 0 0 0 0
+                             0 1 0 0 0
+                             0 0 1 0 0
+                             0 0 0 1 0"
+      />
+      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="3"/>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+    </filter>
+    <radialGradient id="grad-hole" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f0f000;stop-opacity:0.382"/>
+    </radialGradient>
   </defs>
 </svg>
