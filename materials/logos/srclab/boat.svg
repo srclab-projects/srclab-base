@@ -1,10 +1,7 @@
 <svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
   <title>Boat</title>
-  <g id="group-background">
-    <path id="background"
-          d="M60,60 m-60,-60 l120,0 l0,120 l-120,0 l0,-120 z"
-          fill="#3f3f3f"
-    />
+  <g id="group-back">
+    <rect id="back-global" x="0" y="0" width="120" height="120" fill="#3f3f3f" stroke="none"/>
   </g>
   <g id="group-hive"
      fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
@@ -59,17 +56,17 @@
     />
   </g>
   <g id="group-title">
-    <path id="text-background"
+    <path id="title-back"
           d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
           stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
           fill="#fefefe" stroke="#3f3f3f"
     />
-    <path id="text-color"
+    <path id="title-color"
           d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
           stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
           fill="BurlyWood" stroke="#3f3f3f" fill-opacity="0.382"
     />
-    <text id="text-boat" x="60" y="64" text-anchor="middle"
+    <text id="title-boat" x="60" y="64" text-anchor="middle"
           font-family="Inter,Arial,sans-serif" font-size="12" font-weight="bold"
           fill="SaddleBrown"
     >

@@ -1,0 +1,139 @@
+<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+  <title>Xtea Spring Boot</title>
+  <g id="group-back">
+    <rect id="back-global" x="0" y="0" width="120" height="120" fill="#3f3f3f" stroke="none"/>
+  </g>
+  <g id="group-hive"
+     fill="#fefefe" stroke="#3f3f3f" stroke-width="1"
+     stroke-linecap="square" stroke-miterlimit="100"
+  >
+    <path id="hive-tr-1"
+          d="M60,60 m15,-25.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-tr-2"
+          d="M60,60 m30,-34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-tr-3"
+          d="M60,60 m30,-51 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-tl-1"
+          d="M60,60 m-25,-25.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-tl-2"
+          d="M60,60 m-40,-34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-tl-3"
+          d="M60,60 m-40,-51 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-br-1"
+          d="M60,60 m15,8.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-br-2"
+          d="M60,60 m30,17 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-br-3"
+          d="M60,60 m30,34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-bl-1"
+          d="M60,60 m-25,8.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-bl-2"
+          d="M60,60 m-40,17 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-bl-3"
+          d="M60,60 m-40,34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+  </g>
+  <g id="group-color"
+     fill="#fefefe" stroke="#3f3f3f" stroke-width="1"
+     stroke-linecap="square" stroke-miterlimit="100"
+     filter="url(#filter-light)"
+  >
+    <path id="color-tr-1"
+          d="M60,60 m15,-25.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#ec8b00" fill-opacity="0.382"
+    />
+    <path id="color-tr-2"
+          d="M60,60 m30,-34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#7f52ff" fill-opacity="0.382"
+    />
+    <path id="color-tr-3"
+          d="M60,60 m30,-51 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#ec8b00" fill-opacity="0.382"
+    />
+    <path id="color-tl-1"
+          d="M60,60 m-25,-25.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#ec8b00" fill-opacity="0.382"
+    />
+    <path id="color-tl-2"
+          d="M60,60 m-40,-34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#7f52ff" fill-opacity="0.382"
+    />
+    <path id="color-tl-3"
+          d="M60,60 m-40,-51 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#ec8b00" fill-opacity="0.382"
+    />
+    <path id="color-br-1"
+          d="M60,60 m15,8.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#ec8b00" fill-opacity="0.382"
+    />
+    <path id="color-br-2"
+          d="M60,60 m30,17 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#7f52ff" fill-opacity="0.382"
+    />
+    <path id="color-br-3"
+          d="M60,60 m30,34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#ec8b00" fill-opacity="0.382"
+    />
+    <path id="color-bl-1"
+          d="M60,60 m-25,8.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#ec8b00" fill-opacity="0.382"
+    />
+    <path id="color-bl-2"
+          d="M60,60 m-40,17 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#7f52ff" fill-opacity="0.382"
+    />
+    <path id="color-bl-3"
+          d="M60,60 m-40,34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+          fill="#ec8b00" fill-opacity="0.382"
+    />
+  </g>
+  <g id="group-title">
+    <path id="title-back"
+          d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+          stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
+          fill="#6aad3d" stroke="#6aad3d" filter="url(#filter-light)"
+    />
+    <g id="group-title-text"
+       font-family="Inter,Arial,sans-serif" font-size="8" text-anchor="middle"
+    >
+      <text id="text-xtea" x="60" y="53"
+            fill="Tomato"
+      >
+        Xtea
+      </text>
+      <text id="text-spring" x="60" y="63"
+            fill="#f7f7f7"
+      >
+        Spring
+      </text>
+      <text id="text-boot" x="60" y="73"
+            fill="#f7f7f7"
+      >
+        Boot
+      </text>
+    </g>
+  </g>
+  <defs>
+    <filter id="filter-light">
+      <feColorMatrix result="colorOut" in="SourceGraphic"
+                     values="0.41569 0 0 0 0
+                             0 0.67843 0 0 0
+                             0 0 0.86667 0 0
+                             0 0 0 1 0"
+      />
+      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="3"/>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+    </filter>
+  </defs>
+</svg>
