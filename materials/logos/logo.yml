@@ -1,6 +1,8 @@
 font:
   family: Inter,Arial,sans-serif
 colors:
+  srclab: 5C009D
+  dependencies: DarkOrange, gold
   boat: BurlyWood, SaddleBrown
   java: ec8b00
   kotlin: 7f52ff
