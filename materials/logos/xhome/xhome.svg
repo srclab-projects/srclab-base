@@ -1,0 +1,62 @@
+<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+  <title>Xtea Home</title>
+  <g id="group-background">
+    <path id="background"
+          d="M60,60 m-60,-60 l120,0 l0,120 l-120,0 l0,-120 z"
+          fill="#3f3f3f"
+    />
+  </g>
+  <g id="group-hive"
+     fill="#fefefe" stroke="#3f3f3f" stroke-width="1"
+     stroke-linecap="square" stroke-miterlimit="100">
+    <path id="hive-top"
+          d="M60,60 m15,-25.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m30,-34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m30,-51 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m-25,-25.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m-40,-34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m-40,-51 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m15,8.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m30,17 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m30,34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m-25,8.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m-40,17 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+    <path id="hive-top"
+          d="M60,60 m-40,34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
+    />
+  </g>
+  <g id="group-text">
+    <path id="text-background"
+          d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+          stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
+          fill="#3f3f3f" stroke="#002FA7" stroke-opacity="0.382"
+    />
+    <text id="text-srclab" x="60" y="63" text-anchor="middle"
+          font-family="Inter,Arial,sans-serif" font-size="10"
+          fill="#fefefe"
+    >
+      Xhome
+    </text>
+  </g>
+</svg>
