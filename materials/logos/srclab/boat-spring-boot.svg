@@ -8,7 +8,8 @@
   </g>
   <g id="group-hive"
      fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
-     stroke-linecap="square" stroke-miterlimit="100">
+     stroke-linecap="square" stroke-miterlimit="100"
+  >
     <path id="hive-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
     />
@@ -31,7 +32,8 @@
 
   <g id="group-color"
      fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
-     stroke-linecap="square" stroke-miterlimit="100">
+     stroke-linecap="square" stroke-miterlimit="100"
+  >
     <path id="color-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
           fill="#ec8b00" fill-opacity="0.382"
@@ -57,29 +59,42 @@
           fill="#7f52ff" fill-opacity="0.382"
     />
   </g>
-  <g id="group-text">
+  <g id="group-title">
     <path id="text-background"
           d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
           stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
-          fill="#6aad3d" stroke="#3f3f3f"
+          fill="#6aad3d" stroke="#6aad3d" filter="url(#light-shadow)"
     />
-    <text id="text-boat" x="60" y="53" text-anchor="middle"
-          font-family="Inter,Arial,sans-serif" font-size="8"
-          fill="SaddleBrown"
+    <g id="group-title-text"
+       font-family="Inter,Arial,sans-serif" font-size="8"
     >
-      Boat
-    </text>
-    <text id="text-spring" x="60" y="63" text-anchor="middle"
-          font-family="Inter,Arial,sans-serif" font-size="8"
-          fill="#f7f7f7"
-    >
-      Spring
-    </text>
-    <text id="text-boot" x="60" y="73" text-anchor="middle"
-          font-family="Inter,Arial,sans-serif" font-size="8"
-          fill="#f7f7f7"
-    >
-      Boot
-    </text>
+      <text id="text-boat" x="60" y="53" text-anchor="middle"
+            fill="SaddleBrown"
+      >
+        Boat
+      </text>
+      <text id="text-spring" x="60" y="63" text-anchor="middle"
+            fill="#f7f7f7"
+      >
+        Spring
+      </text>
+      <text id="text-boot" x="60" y="73" text-anchor="middle"
+            fill="#f7f7f7"
+      >
+        Boot
+      </text>
+    </g>
   </g>
+  <defs>
+    <filter id="light-shadow">
+      <feColorMatrix result="colorOut" in="SourceGraphic"
+                     values="0.41569 0 0 0 0
+                             0 0.67843 0 0 0
+                             0 0 0.86667 0 0
+                             0 0 0 1 0"
+      />
+      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="3"/>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+    </filter>
+  </defs>
 </svg>

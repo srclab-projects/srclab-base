@@ -8,7 +8,9 @@
   </g>
   <g id="group-hive"
      fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
-     stroke-linecap="square" stroke-miterlimit="100">
+     stroke-linecap="square" stroke-miterlimit="100"
+     filter="url(#light-shadow)"
+  >
     <path id="hive-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
     />
@@ -28,7 +30,7 @@
           d="M60,60 m-40,-34 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
     />
   </g>
-  <g id="group-text">
+  <g id="group-title">
     <text id="text-srclab" x="60" y="63" text-anchor="middle"
           font-family="Inter,Arial,sans-serif" font-size="10"
           fill="#fefefe"
@@ -36,4 +38,16 @@
       SrcLab
     </text>
   </g>
+  <defs>
+    <filter id="light-shadow">
+      <feColorMatrix result="colorOut" in="SourceGraphic"
+                     values="0.36078 0 0 0 0
+                             0 0.00001 0 0 0
+                             0 0 0.61569 0 0
+                             0 0 0 1 0"
+      />
+      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="4"/>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+    </filter>
+  </defs>
 </svg>

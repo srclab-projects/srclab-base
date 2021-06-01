@@ -8,7 +8,8 @@
   </g>
   <g id="group-hive"
      fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
-     stroke-linecap="square" stroke-miterlimit="100">
+     stroke-linecap="square" stroke-miterlimit="100"
+  >
     <path id="hive-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
     />
@@ -28,10 +29,10 @@
           d="M60,60 m-40,-34 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
     />
   </g>
-
   <g id="group-color"
      fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
-     stroke-linecap="square" stroke-miterlimit="100">
+     stroke-linecap="square" stroke-miterlimit="100"
+  >
     <path id="color-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
           fill="#6aad3d" fill-opacity="0.382"
@@ -57,11 +58,11 @@
           fill="#6aad3d" fill-opacity="0.382"
     />
   </g>
-  <g id="group-text">
+  <g id="group-title">
     <path id="text-background"
           d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
           stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
-          fill="#5cafb5" stroke="#3f3f3f"
+          fill="#5cafb5" stroke="#5cafb5" filter="url(#light-shadow)"
     />
     <text id="text-grpc" x="60" y="63" text-anchor="middle"
           font-family="Inter,Arial,sans-serif" font-size="10" font-weight="bold"
@@ -70,4 +71,16 @@
       gRPC
     </text>
   </g>
+  <defs>
+    <filter id="light-shadow">
+      <feColorMatrix result="colorOut" in="SourceGraphic"
+                     values="0.36078 0 0 0 0
+                             0 0.68627 0 0 0
+                             0 0 0.7098 0 0
+                             0 0 0 1 0"
+      />
+      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="3"/>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+    </filter>
+  </defs>
 </svg>
