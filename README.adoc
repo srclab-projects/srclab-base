@@ -10,45 +10,19 @@ Sun Qian <fredsuvn@163.com>
 :projects-url: https://github.com/srclab-projects
 :qq-group: QQ group: 1037555759
 
-*Source Lab (simply to SrcLab) is a place where let us fun with coding and researching.
-This project is homepage for Source Lab, here you can find:*
+== About Source Lab
 
-* <<Projects>>: Shared open source projects, join us!
-* <<Resources>>: Shared resources;
-* <<Manuals>>: Various manuals to look up and study;
-* <<Templates>>: Various templates;
-* <<Materials>>: Various materials;
+*Source Lab Works to Exploring, Discovering and Researching.*
 
-== Projects
+* link:{url}[Homepage]
+* link:{projects-url}[Open Source Projects]
+* link:logos/[Logos]
+* link:resources/[Resources]
+* link:materials/[Materials]
+* link:manuals/[Manuals and Books]
+* link:templates/[Template Files]
 
-{projects-url}
-
-== Resources
-
-* link:resources/asciidoc/[asciidoc]
-* link:resources/brew/[brew]
-
-== Manuals
-
-* link:manuals/git/[git]
-* link:manuals/windows/[windows]
-
-== Templates
-
-* link:templates/project-base/[project-base]
-* link:templates/gradle/[gradle]
-* link:templates/maven/[maven]
-* link:templates/docs/[docs]
-* link:templates/svg/[svg]
-* link:templates/licenses/[licenses]
-
-== Materials
-
-* link:materials/logos/[logos]
-* link:materials/fonts/[fonts]
-* link:materials/cert/[cert]
-
-== Contribution and Contact
+== Join Us
 
 * {emaill}
 * {url}
