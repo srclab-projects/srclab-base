@@ -1,11 +1,6 @@
 font:
   family: Inter,Arial,sans-serif
 colors:
-  srclab: 5C009D
-  homeport: 5C009D
-  firefly: F0F000
-  dependencies: DarkOrange, gold
-  boat: BurlyWood, SaddleBrown
   java: ec8b00
   kotlin: 7f52ff
   spring: 6aad3d, f7f7f7
@@ -16,5 +11,3 @@ colors:
   c: 3c3c3c
   asciidoctor: e40046
   html: f92672
-  xhome: red
-  xtea: Tomato, Cyan

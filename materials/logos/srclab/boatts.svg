@@ -5,7 +5,7 @@
   </g>
   <g id="group-hive"
      stroke-linecap="square" stroke-miterlimit="100"
-     fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
+     stroke="#3f3f3f" stroke-width="2" fill="#fefefe"
   >
     <path id="hive-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
@@ -52,25 +52,23 @@
   <g id="group-title">
     <path id="title-back"
           d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
-          stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
-          fill="#fefefe" stroke="#3f3f3f"
+          stroke-linecap="square" stroke-miterlimit="100"
+          stroke="#3f3f3f" stroke-width="2" fill="#fefefe"
     />
     <path id="title-color"
           d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
-          stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
-          fill="BurlyWood" stroke="#3f3f3f" fill-opacity="0.382"
+          stroke-linecap="square" stroke-miterlimit="100"
+          stroke="#3f3f3f" stroke-width="2" fill="BurlyWood" fill-opacity="0.382"
     />
-    <text id="title-boat" x="60" y="60" text-anchor="middle"
-          font-family="Inter,Arial,sans-serif" font-size="10" font-weight="bold"
-          fill="SaddleBrown"
+    <g id="group-title-text" text-anchor="middle" font-family="Inter,Arial,sans-serif"
+       font-size="10" font-weight="bold" fill="SaddleBrown"
     >
-      Boat
-    </text>
-    <text id="title-ts" x="60" y="69" text-anchor="middle"
-          font-family="Inter,Arial,sans-serif" font-size="10" font-weight="bold"
-          fill="SaddleBrown"
-    >
-      ts
-    </text>
+      <text id="title-boat" x="60" y="60" fill="SaddleBrown">
+        Boat
+      </text>
+      <text id="title-ts" x="60" y="69" fill="SaddleBrown">
+        ts
+      </text>
+    </g>
   </g>
 </svg>

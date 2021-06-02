@@ -5,7 +5,7 @@
   </g>
   <g id="group-hive"
      stroke-linecap="square" stroke-miterlimit="100"
-     fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
+     stroke="#3f3f3f" stroke-width="2" fill="#fefefe"
   >
     <path id="hive-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
@@ -59,25 +59,19 @@
   <g id="group-title">
     <path id="title-back"
           d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
-          stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
-          fill="#6aad3d" stroke="#6aad3d" filter="url(#filter-light)"
+          stroke-linecap="square" stroke-miterlimit="100"
+          stroke-width="2" stroke="#6aad3d" fill="#6aad3d" filter="url(#filter-light)"
     />
-    <g id="group-title-text"
-       font-family="Inter,Arial,sans-serif" font-size="8" text-anchor="middle"
+    <g id="group-title-text" text-anchor="middle" font-family="Inter,Arial,sans-serif"
+       font-size="8"
     >
-      <text id="text-boat" x="60" y="53"
-            fill="SaddleBrown"
-      >
+      <text id="text-boat" x="60" y="53" fill="SaddleBrown">
         Boat
       </text>
-      <text id="text-spring" x="60" y="63"
-            fill="#f7f7f7"
-      >
+      <text id="text-spring" x="60" y="63" fill="#f7f7f7">
         Spring
       </text>
-      <text id="text-boot" x="60" y="73"
-            fill="#f7f7f7"
-      >
+      <text id="text-boot" x="60" y="73" fill="#f7f7f7">
         Boot
       </text>
     </g>

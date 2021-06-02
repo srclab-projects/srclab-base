@@ -5,7 +5,7 @@
   </g>
   <g id="group-hive"
      stroke-linecap="square" stroke-miterlimit="100"
-     fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
+     stroke="#3f3f3f" stroke-width="2" fill="#fefefe"
   >
     <path id="hive-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
@@ -58,8 +58,8 @@
   <g id="group-title">
     <path id="title-back"
           d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
-          stroke-width="2" stroke-linecap="square" stroke-miterlimit="100"
-          fill="#5cafb5" stroke="#5cafb5" filter="url(#filter-light)"
+          stroke-linecap="square" stroke-miterlimit="100"
+          stroke="#5cafb5" stroke-width="2" fill="#5cafb5" filter="url(#filter-light)"
     />
     <text id="title-grpc" x="60" y="63" text-anchor="middle"
           font-family="Inter,Arial,sans-serif" font-size="10" font-weight="bold"

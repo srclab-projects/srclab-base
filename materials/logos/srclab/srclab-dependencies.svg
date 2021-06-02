@@ -5,8 +5,7 @@
   </g>
   <g id="group-hive"
      stroke-linecap="square" stroke-miterlimit="100"
-     stroke="Gold" stroke-width="2"
-     fill="#fefefe" filter="url(#filter-light)"
+     stroke="Gold" stroke-width="2" fill="#fefefe" filter="url(#filter-light)"
   >
     <path id="hive-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
@@ -27,8 +26,7 @@
           d="M60,60 m-40,-34 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
     />
   </g>
-  <g id="group-title"
-     text-anchor="middle" font-family="Inter,Arial,sans-serif"
+  <g id="group-title" text-anchor="middle" font-family="Inter,Arial,sans-serif"
      font-size="14" font-style="italic" fill="Coral"
   >
     <text id="title-srclab" x="60" y="57">
