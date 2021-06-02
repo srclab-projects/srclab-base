@@ -27,7 +27,7 @@
     />
   </g>
   <g id="group-title" text-anchor="middle" font-family="Inter,Arial,sans-serif"
-     font-size="14" font-style="italic" fill="Coral"
+     font-size="14" font-style="italic" fill="Coral" filter="url(#filter-soul)"
   >
     <text id="title-srclab" x="60" y="57">
       SrcLab
@@ -45,6 +45,16 @@
                              0 0 0 1 0"
       />
       <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="5"/>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+    </filter>
+    <filter id="filter-soul">
+      <feColorMatrix result="colorOut" in="SourceGraphic"
+                     values="1 0 0 0 0
+                             0 0.84314 0 0 0
+                             0 0 0 0 0
+                             0 0 0 1 0"
+      />
+      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="1"/>
       <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
     </filter>
   </defs>
