@@ -4,9 +4,8 @@
     <rect id="back-global" x="0" y="0" width="120" height="120" fill="#3f3f3f" stroke="none"/>
   </g>
   <g id="group-hive"
-     fill="#fefefe" stroke="#3f3f3f" stroke-width="2"
      stroke-linecap="square" stroke-miterlimit="100"
-     filter="url(#filter-light)"
+     stroke="Gold" stroke-width="2" fill="#fefefe" filter="url(#filter-light)"
   >
     <path id="hive-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
@@ -27,9 +26,8 @@
           d="M60,60 m-40,-34 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
     />
   </g>
-  <g id="group-title"
-     text-anchor="middle" font-family="Inter,Arial,sans-serif"
-     font-size="14" font-style="italic" fill="DarkOrange"
+  <g id="group-title" text-anchor="middle" font-family="Inter,Arial,sans-serif"
+     font-size="14" font-style="italic" fill="Coral" filter="url(#filter-soul)"
   >
     <text id="title-srclab" x="60" y="57">
       SrcLab
@@ -46,7 +44,17 @@
                              0 0 0 0 0
                              0 0 0 1 0"
       />
-      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="4"/>
+      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="5"/>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+    </filter>
+    <filter id="filter-soul">
+      <feColorMatrix result="colorOut" in="SourceGraphic"
+                     values="1 0 0 0 0
+                             0 0.84314 0 0 0
+                             0 0 0 0 0
+                             0 0 0 1 0"
+      />
+      <feGaussianBlur result="blurOut" in="colorOut" stdDeviation="1"/>
       <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
     </filter>
   </defs>

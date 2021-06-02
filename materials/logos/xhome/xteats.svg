@@ -4,8 +4,8 @@
     <rect id="back-global" x="0" y="0" width="120" height="120" fill="#3f3f3f" stroke="none"/>
   </g>
   <g id="group-hive"
-     fill="#fefefe" stroke="#3f3f3f" stroke-width="1"
      stroke-linecap="square" stroke-miterlimit="100"
+     stroke="#3f3f3f" stroke-width="1" fill="#fefefe" filter="url(#filter-light)"
   >
     <path id="hive-tr-1"
           d="M60,60 m15,-25.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
@@ -45,80 +45,62 @@
     />
   </g>
   <g id="group-color"
-     fill="#fefefe" stroke="#3f3f3f" stroke-width="1"
      stroke-linecap="square" stroke-miterlimit="100"
-     filter="url(#filter-light)"
+     stroke="#3f3f3f" stroke-width="1" fill="#2f74c0" fill-opacity="0.382"
   >
     <path id="color-tr-1"
           d="M60,60 m15,-25.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-tr-2"
           d="M60,60 m30,-34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-tr-3"
           d="M60,60 m30,-51 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-tl-1"
           d="M60,60 m-25,-25.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-tl-2"
           d="M60,60 m-40,-34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-tl-3"
           d="M60,60 m-40,-51 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-br-1"
           d="M60,60 m15,8.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-br-2"
           d="M60,60 m30,17 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-br-3"
           d="M60,60 m30,34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-bl-1"
           d="M60,60 m-25,8.5 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-bl-2"
           d="M60,60 m-40,17 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
     <path id="color-bl-3"
           d="M60,60 m-40,34 l10,0 l5,8.5 l-5,8.5 l-10,0 l-5,-8.5 l5,-8.5"
-          fill="#2f74c0" fill-opacity="0.382"
     />
   </g>
   <g id="group-title">
-    <path id="title-cup"
-          d="M60,60 m-15,-10 l30,0 l-5,15 l-20,0 z"
-          fill="Tomato" stroke="none"
+    <path id="title-back"
+          d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+          stroke-linecap="square" stroke-miterlimit="100"
+          stroke="none" fill="Tomato" filter="url(#filter-light)"
     />
-    <path id="title-tray"
-          d="M60,60 m-18,5 l36,0 l-7,3 l-22,0 z"
-          fill="Cyan" stroke="none"
-    />
-    <text id="title-xtea" x="60" y="60" text-anchor="middle"
-          font-family="Inter,Arial,sans-serif" font-size="10"
-          fill="#fefefe"
+    <g id="group-title-text" text-anchor="middle" font-family="Inter,Arial,sans-serif"
+       font-size="12"
     >
-      Xtea
-    </text>
-    <text id="title-go" x="60" y="76" text-anchor="middle"
-          font-family="Inter,Arial,sans-serif" font-size="10"
-          fill="#fefefe"
-    >
-      ts
-    </text>
+      <text id="title-xtea" x="60" y="58" fill="#fefefe">
+        Xtea
+      </text>
+      <text id="title-ts" x="60" y="71" fill="#fefefe">
+        ts
+      </text>
+    </g>
   </g>
   <defs>
     <filter id="filter-light">

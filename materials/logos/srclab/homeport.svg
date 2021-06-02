@@ -4,9 +4,8 @@
     <rect id="back-global" x="0" y="0" width="120" height="120" fill="#222222" stroke="none"/>
   </g>
   <g id="group-hive"
-     fill="#fefefe" stroke="#5C009D" stroke-width="2"
      stroke-linecap="square" stroke-miterlimit="100"
-     filter="url(#filter-light)"
+     stroke="#5C009D" stroke-width="2" fill="#fefefe" filter="url(#filter-light)"
   >
     <path id="hive-top"
           d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
@@ -28,8 +27,8 @@
     />
   </g>
   <g id="group-title">
-    <circle cx="60" cy="60" r="18" stroke="none"
-            fill="url(#grad-hole)" filter="url(#filter-hole)"
+    <circle id="title-hole" cx="60" cy="60" r="18"
+            stroke="none" fill="url(#grad-hole)" filter="url(#filter-hole)"
     />
   </g>
   <defs>
