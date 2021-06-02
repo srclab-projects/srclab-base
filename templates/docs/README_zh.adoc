@@ -33,7 +33,7 @@ Sun Qian <fredsuvn@163.com>
 
 这是章节2
 
-== 贡献和联系方式
+== 加入
 
 * {emaill}
 * {url}

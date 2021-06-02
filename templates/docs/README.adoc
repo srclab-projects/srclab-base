@@ -23,7 +23,7 @@ Sun Qian <fredsuvn@163.com>
 
 More see link:../docs/[docs/]
 
-== Contribution and Contact
+== Join
 
 * {emaill}
 * {url}

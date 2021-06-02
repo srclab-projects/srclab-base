@@ -27,7 +27,7 @@
 
 这是章节2
 
-## <a id="contact"/>贡献和联系方式
+## <a id="contact"/>加入
 
 * fredsuvn@163.com
 * https://github.com/srclab-projects

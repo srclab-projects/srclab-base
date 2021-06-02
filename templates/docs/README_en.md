@@ -27,7 +27,7 @@ This is section 1
 
 This is section 2
 
-## <a id="contact"/>Contribution and Contact
+## <a id="contact"/>Join
 
 * fredsuvn@163.com
 * https://github.com/srclab-projects/srclab-template
