@@ -9,7 +9,7 @@ Sun Qian <fredsuvn@163.com>
 :qq-group: QQ group: 1037555759
 :boat-version: 0.0.0
 
-== Choose doc style you like:
+== Read Me:
 
 * AsciiDoc:
 ** link:README_en.adoc[English]
