@@ -2,6 +2,10 @@
 
 # Title: description
 
+<p align="center">
+<img src="logo.svg"/>
+</p>
+
 ## Choose doc style you like:
 
 - AsciiDoc:
