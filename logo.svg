@@ -7,32 +7,47 @@
      stroke-linecap="square" stroke-miterlimit="100"
      stroke="#5C009D" stroke-width="2" fill="#fefefe" filter="url(#filter-light)"
   >
-    <path id="hive-top"
-          d="M60,60 m-10,-51 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+    <path id="hive-t"
+          d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+          transform="translate(0,-34)"
     />
-    <path id="hive-right-top"
-          d="M60,60 m20,-34 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+    <path id="hive-rt"
+          d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+          transform="translate(30,-17)"
     />
-    <path id="hive-right-bottom"
-          d="M60,60 m20,0 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+    <path id="hive-rb"
+          d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+          transform="translate(30,17)"
     />
-    <path id="hive-bottom"
-          d="M60,60 m-10,17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+    <path id="hive-b"
+          d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+          transform="translate(0,34)"
     />
-    <path id="hive-left-bottom"
-          d="M60,60 m-40,0 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+    <path id="hive-lt"
+          d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+          transform="translate(-30,-17)"
     />
-    <path id="hive-left-top"
-          d="M60,60 m-40,-34 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+    <path id="hive-lb"
+          d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
+          transform="translate(-30,17)"
     />
   </g>
-  <g id="group-title">
-    <text id="title-srclab" x="60" y="63" text-anchor="middle"
-          font-family="Inter,Arial,sans-serif" font-size="10"
-          fill="#fefefe"
-    >
-      SrcLab
-    </text>
+  <g id="group-moth"
+     stroke-linecap="square" stroke-miterlimit="100"
+     stroke="none" stroke-width="0" fill="#5C009D" filter="url(#filter-light)"
+  >
+    <path id="moth-wing-rb"
+          d="M60,60 m0,-9 l35,10 l-32,20 l-3,-20 z"
+    />
+    <path id="moth-wing-lb"
+          d="M60,60 m0,-9 l-35,10 l32,20 l3,-20 z"
+    />
+    <path id="moth-wing-rt"
+          d="M60,60 m0,-12 l40,15 l-22,15 l-18,-27 z"
+    />
+    <path id="moth-wing-lt"
+          d="M60,60 m0,-12 l-40,15 l22,15 l18,-27 z"
+    />
   </g>
   <defs>
     <filter id="filter-light">
