@@ -1,6 +1,6 @@
 //= image:logo.svg[logo] Title: A description
 = Title: A description
-:toc:
+:toc: macro
 :toclevels: 3
 :last-update-label!:
 Sun Qian <fredsuvn@163.com>
@@ -19,6 +19,8 @@ Sun Qian <fredsuvn@163.com>
 |Date|Revision|Author|Content
 |2020-12-10|1.0.0|{author}|New
 |===
+
+toc::[]
 
 == Introduction
 
