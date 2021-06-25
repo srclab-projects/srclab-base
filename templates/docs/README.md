@@ -2,7 +2,11 @@
 
 # Title: description
 
-## Choose doc style you like:
+<p align="center">
+<img src="logo.svg"/>
+</p>
+
+## Read Me:
 
 - AsciiDoc:
   * [English](docs/README_en.adoc)

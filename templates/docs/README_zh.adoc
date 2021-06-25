@@ -1,6 +1,6 @@
 //= image:logo.svg[logo] 标题: 描述
 = 标题: 描述
-:toc:
+:toc: macro
 :toclevels: 3
 :toc-title: 目录
 :last-update-label!:
@@ -20,6 +20,8 @@ Sun Qian <fredsuvn@163.com>
 |Date|Revision|Author|Content
 |2020-12-10|1.0.0|{author}|New
 |===
+
+toc::[]
 
 == 简介
 
