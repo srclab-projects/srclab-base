@@ -5,7 +5,7 @@
   </g>
   <g id="group-hive"
      stroke-linecap="square" stroke-miterlimit="100"
-     stroke="#5C009D" stroke-width="2" fill="#fefefe" filter="url(#filter-light)"
+     stroke="Purple" stroke-width="2" fill="#fefefe" filter="url(#filter-light)"
   >
     <path id="hive-t"
           d="M60,60 m-10,-17 l20,0 l10,17 l-10,17 l-20,0 l-10,-17 l10,-17"
@@ -37,16 +37,16 @@
      stroke="none" stroke-width="0" fill="#5C009D" filter="url(#filter-light)"
   >
     <path id="moth-wing-rb"
-          d="M60,60 m0,-9 l35,10 l-32,20 l-3,-20 z"
+          d="M60,60 m0,-13 l35,10 l-32,20 l-3,-20 z"
     />
     <path id="moth-wing-lb"
-          d="M60,60 m0,-9 l-35,10 l32,20 l3,-20 z"
+          d="M60,60 m0,-13 l-35,10 l32,20 l3,-20 z"
     />
     <path id="moth-wing-rt"
-          d="M60,60 m0,-12 l40,15 l-22,15 l-18,-27 z"
+          d="M60,60 m0,-16 l40,15 l-22,15 l-18,-27 z"
     />
     <path id="moth-wing-lt"
-          d="M60,60 m0,-12 l-40,15 l22,15 l18,-27 z"
+          d="M60,60 m0,-16 l-40,15 l22,15 l18,-27 z"
     />
   </g>
   <defs>
