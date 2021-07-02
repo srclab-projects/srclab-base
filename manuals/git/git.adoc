@@ -18,3 +18,10 @@ git config --global https.proxy https://127.0.0.1:1087
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ----
+
+.ssl
+[source,bash]
+----
+git config --global http.sslVerify false
+git config --global --unset http.sslVerify
+----
