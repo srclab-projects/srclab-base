@@ -1,27 +1,197 @@
-.set socket proxy
-[source,bash]
+= Git
+:toc:
+
+== Download
+
+https://git-scm.com/
+
+== Usage
+
+=== new repository
+
+[source,shell script]
+----
+git init
+----
+
+=== add and commit
+
+[source,shell script]
+----
+git add file1.txt
+git add file2.txt file3.txt
+git commit -m "add 3 files."
+
+# delete
+git rm test.txt
+----
+
+=== show history
+
+[source,shell script]
+----
+# --graph shows graph
+git log --pretty=oneline
+
+# show command history
+git reflog
+
+# show status
+git status
+----
+
+=== rollback
+
+[source,shell script]
+----
+# HEAD: last version
+# HEAD^ last - 1 version
+# HEAD^^ last - 2 version
+# HEAD~100 last - 100 version
+git reset --hard HEAD^
+git reset --hard 1094a
+
+# reset last modification (modified but not commit or add)
+git checkout -- readme.txt
+----
+
+=== diff
+
+[source,shell script]
+----
+git diff HEAD -- readme.txt
+----
+
+=== remote
+
+[source,shell script]
+----
+# origin is remote name
+# xxxxxxxx.git is repository address
+git remote add origin xxxxxxxx.git
+
+# orgin is remote name
+# master is locale branch name
+# -u means associate origin and master
+git push -u origin master
+git push origin master
+
+# show remote all names
+git remote -v
+
+# delete remote
+git remote rm origin
+
+# clone
+git clone xxxxxxx.git
+
+# update
+git branch --set-upstream-to=origin/dev dev
+git pull
+git pull origin master
+
+# fetch
+# git pull = git fetch + git merge
+git fetch origin master
+git log -p FETCH_HEAD
+
+# make git log in one vertical line
+git rebase
+----
+
+=== branch
+
+[source,shell script]
+----
+# show all branches
+git branch
+
+# -b means create and checkout
+git checkout -b dev
+git branch dev
+git checkout dev
+
+# switch is same as checkout
+# switch -c dev = checkout -b dev
+git switch -c dev
+git switch master
+
+# merge dev into current branch
+git merge dev
+
+# delete dev branch
+git branch -d dev
+----
+
+=== tag
+
+[source,shell script]
+----
+# show all tags
+git tag
+
+# add tag v1.0
+git tag v1.0
+
+# add tag in version f52c633
+git tag v0.9 f52c633
+
+# add tag with name v0.1, description -m
+git tag -a v0.1 -m "version 0.1 released" 1094adb
+
+# show tag v0.9
+git show v0.9
+
+# delete tag
+git tag -d v0.1
+
+# push tag
+# --tags: push all tags
+# :refs/tags/v0.9: push delete
+git push origin v1.0
+git push origin --tags
+git push origin :refs/tags/v0.9
+----
+
+=== stash
+
+[source,shell script]
+----
+# stash un-committed files
+git stash
+
+# show all stashes
+git stash list
+
+# git stash pop = apply + drop
+git stash pop
+git stash apply
+git stash drop
+----
+
+== Setting
+
+=== proxy
+
+[source,shell script]
 ----
 git config --global http.proxy 'socks5://127.0.0.1:1086'
-git config --global https.proxy 'socks5://127.0.0.1:1086'
-----
-
-.set http proxy
-[source,bash]
-----
 git config --global http.proxy http://127.0.0.1:1087
-git config --global https.proxy https://127.0.0.1:1087
-----
 
-.cancel proxy
-[source,bash]
-----
+git config --global https.proxy 'socks5://127.0.0.1:1086'
+git config --global https.proxy https://127.0.0.1:1087
+
+# unset
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ----
 
-.ssl
-[source,bash]
+=== ssl
+
+[source,shell script]
 ----
 git config --global http.sslVerify false
+
+# unset
 git config --global --unset http.sslVerify
 ----
