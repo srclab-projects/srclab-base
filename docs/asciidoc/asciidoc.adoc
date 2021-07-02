@@ -1,0 +1,25 @@
+= Asciidoc
+:toc:
+
+== Guide
+
+* AsciiDoc Home Page: https://asciidoc.org/index.html
+* Asciidoctor Documentation Home: https://docs.asciidoctor.org/home/
+* Pandoc: https://pandoc.org/
+
+== Getting
+
+.asciidoctor
+https://search.maven.org/artifact/org.asciidoctor/asciidoctorj
+
+.pandoc
+https://pandoc.org/installing.html
+
+== Commander
+
+.First convert adoc to html:
+* Linux: asciidoctorj-2.4.3/bin/asciidoctorj -b html README.adoc
+* Windows: asciidoctorj-2.4.3\bin\asciidoctorj.bat -b html README.adoc
+
+.Then convert html to markdown:
+pandoc -s -f html -t markdown_strict htmlPath -o markdownPath
