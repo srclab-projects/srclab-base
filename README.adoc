@@ -18,6 +18,7 @@ Sun Qian <fredsuvn@163.com>
 * link:{projects-url}[Open Source Projects]
 * link:docs/[Docs]
 ** link:docs/git/git.adoc[Git]
+** link:docs/asciidoc/asciidoc.adoc[Asciidoc and Pandoc]
 * link:logos/[Logos]
 * link:resources/[Resources]
 * link:materials/[Materials]
