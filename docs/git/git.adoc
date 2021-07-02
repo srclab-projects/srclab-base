@@ -1,7 +1,7 @@
 = Git
 :toc:
 
-== Download
+== Homepage
 
 https://git-scm.com/
 
