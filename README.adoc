@@ -16,10 +16,11 @@ Sun Qian <fredsuvn@163.com>
 
 * link:{url}[Homepage]
 * link:{projects-url}[Open Source Projects]
+* link:docs/[Docs]
+** link:docs/git/git.adoc[Git]
 * link:logos/[Logos]
 * link:resources/[Resources]
 * link:materials/[Materials]
-* link:manuals/[Manuals and Books]
 * link:templates/[Template Files]
 
 == Join Us
