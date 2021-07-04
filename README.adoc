@@ -16,10 +16,28 @@ Sun Qian <fredsuvn@163.com>
 
 * link:{url}[Homepage]
 * link:{projects-url}[Open Source Projects]
-* link:docs/[Docs]
-** link:docs/git/git.adoc[Git]
-** link:docs/asciidoc/asciidoc.adoc[Asciidoc and Pandoc]
-* link:templates/[Template Files]
+
+== Content
+
+=== link:docs/[Docs]
+
+* link:docs/git/git.adoc[Git]
+* link:docs/asciidoc/asciidoc.adoc[Asciidoc and Pandoc]
+
+=== link:resources[Resources]
+
+* link:resources/repository/repositories.adoc[Repositories]
+
+=== link:templates/[Template Files]
+
+* link:templates/editor/[editor]
+* link:templates/gradle/[gradle]
+* link:templates/maven/[maven]
+* link:templates/java/[java]
+* link:templates/docs/[docs]
+* link:templates/cert/[cert]
+* link:templates/svg/[svg]
+* link:templates/licenses/[licenses]
 
 == Join Us
 
