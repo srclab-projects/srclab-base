@@ -1,34 +1,35 @@
 = image:logo.svg[SrcLab] Welcome to Source Lab
-:toc:
+:toc: preamble
 :toclevels: 3
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
 :emaill: fredsuvn@163.com
 :url: https://github.com/srclab-projects/srclab-home
+:srclab-url: https://github.com/srclab-projects
+:qq: 566185308
 :license: https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license]
-
-:projects-url: https://github.com/srclab-projects
-:qq-group: QQ group: 1037555759
-
-== About Source Lab
 
 *Source Lab Works to Exploring, Discovering and Researching.*
 
+*There are lots of Open-Source-Projects here.*
+
+*Join us!*
+
+* QQ Group: {qq}
 * link:{url}[Homepage]
-* link:{projects-url}[Open Source Projects]
+* link:{srclab-url}[Open Source Projects]
+* {emaill}
 
-== Content
-
-=== link:docs/[Docs]
+== link:docs/[Docs]
 
 * link:docs/git/git.adoc[Git]
 * link:docs/asciidoc/asciidoc.adoc[Asciidoc and Pandoc]
 
-=== link:resources[Resources]
+== link:resources[Resources]
 
 * link:resources/repository/repositories.adoc[Repositories]
 
-=== link:templates/[Template Files]
+== link:templates/[Template Files]
 
 * link:templates/editor/[editor]
 * link:templates/gradle/[gradle]
@@ -38,12 +39,6 @@ Sun Qian <fredsuvn@163.com>
 * link:templates/cert/[cert]
 * link:templates/svg/[svg]
 * link:templates/licenses/[licenses]
-
-== Join Us
-
-* {emaill}
-* {url}
-* {qq-group}
 
 == License
 
