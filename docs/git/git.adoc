@@ -201,6 +201,10 @@ git config --global https.proxy https://127.0.0.1:1087
 # unset
 git config --global --unset http.proxy
 git config --global --unset https.proxy
+
+# http
+git config --global http.version HTTP/1.1
+git config --global http.version HTTP/2
 ----
 
 === ssl
