@@ -171,6 +171,23 @@ git stash drop
 
 == Setting
 
+=== user
+
+[source,shell script]
+----
+# show
+git config user.name
+git config user.email
+
+# set
+git config user.name "userName"
+git config user.email "email@domain.com"
+
+# global
+git config --global user.name
+git config --global user.email
+----
+
 === proxy
 
 [source,shell script]
