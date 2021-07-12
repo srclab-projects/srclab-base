@@ -20,6 +20,9 @@ Sun Qian <fredsuvn@163.com>
 * HTML:
 ** link:README_en.html[English]
 ** link:README_zh.html[简体中文]
+* DocBook:
+** link:README_en.xml[English]
+** link:README_zh.xml[简体中文]
 
 More see link:../docs/[docs/]
 
