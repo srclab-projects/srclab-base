@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--monitorInterval：monitor log4j2.xml changes in seconds -->
+<configuration monitorInterval="5">
+  <!-- OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE > ALL -->
+
+  <Properties>
+    <property name="LOG_PATTERN"
+              value="log4j2-%date{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%X{requestId:-none}] %-5level %logger{36} - %msg%n"/>
+    <property name="LOG_HOME" value="${app.logs}"/>
+  </Properties>
+
+  <appenders>
+    <console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="${LOG_PATTERN}"/>
+      <ThresholdFilter level="info"/>
+    </console>
+
+    <File name="File" fileName="${LOG_HOME}/file.log" append="false">
+      <PatternLayout pattern="${LOG_PATTERN}"/>
+    </File>
+
+    <RollingFile name="RollingFile" fileName="${LOG_HOME}/rolling.log"
+                 filePattern="${LOG_HOME}/rolling-%d{yyyy-MM-dd}.log">
+      <ThresholdFilter level="info"/>
+      <PatternLayout pattern="${LOG_PATTERN}"/>
+      <Policies>
+        <TimeBasedTriggeringPolicy interval="1"/>
+        <!--<SizeBasedTriggeringPolicy size="10MB"/>-->
+      </Policies>
+      <!--<DefaultRolloverStrategy max="15"/>-->
+    </RollingFile>
+  </appenders>
+
+  <loggers>
+    <root level="info">
+      <appender-ref ref="Console"/>
+    </root>
+    <logger name="org.springframework" level="info"/>
+  </loggers>
+</configuration>
