@@ -8,7 +8,7 @@ git config https.proxy https://127.0.0.1:1080
 
 git config user.name fredsuvn
 
-config user.email fredsuvn@163.com
+git config user.email fredsuvn@163.com
 
 == Initialize
 
