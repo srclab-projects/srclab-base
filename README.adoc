@@ -1,6 +1,5 @@
 = image:logo.svg[SrcLab] Welcome to Source Lab
 :toc: preamble
-:toclevels: 3
 Sun Qian <fredsuvn@163.com>
 :encoding: UTF-8
 :emaill: fredsuvn@163.com
